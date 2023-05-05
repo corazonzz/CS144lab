@@ -33,18 +33,20 @@ size_t ByteStream::write(const string &data) {
 //! \param[in] len bytes will be copied from the output side of the buffer
 string ByteStream::peek_output(const size_t len) const {
     size_t copy_ = len;
-    if(len > writepos - readpos){
-        copy_ = writepos - readpos;
+    if(len > writepos){
+        copy_ = writepos;
     }
-    string s = string(buffer_.begin() + readpos, buffer_.begin() + readpos + copy_);
+    string s = string(buffer_.begin() + readpos, buffer_.begin() + copy_);
     return s;
 }
 
 //! \param[in] len bytes will be removed from the output side of the buffer
 void ByteStream::pop_output(const size_t len) {
     size_t del_ = min(writepos, len);
-
-    readpos += del_;
+    for(size_t i = 0; i < del_; ++i){
+        buffer_.pop_front();
+    }
+    writepos -= del_;
     readbytes += del_;
 }
 
@@ -66,11 +68,11 @@ bool ByteStream::input_ended() const {
  }
 
 size_t ByteStream::buffer_size() const {
-    return writepos - readpos;
+    return writepos;
 }
 
 bool ByteStream::buffer_empty() const {
-    return writepos - readpos == 0;
+    return writepos == 0;
 }
 
 bool ByteStream::eof() const {
@@ -86,5 +88,5 @@ size_t ByteStream::bytes_read() const {
 }
 
 size_t ByteStream::remaining_capacity() const {
-    return _capacity - writepos + readpos;
+    return _capacity - writepos;
 }

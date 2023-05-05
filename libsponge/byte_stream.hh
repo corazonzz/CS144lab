@@ -13,7 +13,7 @@
 class ByteStream {
   private:
     // Your code here -- add private members as necessary.
-    std::vector<char> buffer_;
+    std::deque<char> buffer_;
     size_t _capacity;
     size_t writepos;
     size_t readpos;
