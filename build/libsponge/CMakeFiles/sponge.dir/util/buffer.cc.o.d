@@ -1,8 +1,7 @@
 libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o: \
- /home/zyy/cs144_lab/sponge/libsponge/util/buffer.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/buffer.hh \
- /usr/include/c++/9/algorithm /usr/include/c++/9/utility \
+ /home/zyy/CS144lab/libsponge/util/buffer.cc /usr/include/stdc-predef.h \
+ /home/zyy/CS144lab/libsponge/util/buffer.hh /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/utility \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

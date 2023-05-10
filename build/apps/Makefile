@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyy/cs144_lab/sponge
+CMAKE_SOURCE_DIR = /home/zyy/CS144lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyy/cs144_lab/sponge/build
+CMAKE_BINARY_DIR = /home/zyy/CS144lab/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zyy/cs144_lab/sponge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/cs144_lab/sponge/build/CMakeFiles /home/zyy/cs144_lab/sponge/build/apps//CMakeFiles/progress.marks
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/cs144_lab/sponge/build/CMakeFiles 0
+	cd /home/zyy/CS144lab/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/CS144lab/build/CMakeFiles /home/zyy/CS144lab/build/apps//CMakeFiles/progress.marks
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/CS144lab/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/clean
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zyy/cs144_lab/sponge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zyy/CS144lab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/CMakeFiles/webget.dir/rule:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/webget.dir/rule
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/webget.dir/rule
 .PHONY : apps/CMakeFiles/webget.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ webget: apps/CMakeFiles/webget.dir/rule
 
 # fast build rule for target.
 webget/fast:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/build
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/build
 .PHONY : webget/fast
 
 webget.o: webget.cc.o
@@ -145,7 +145,7 @@ webget.o: webget.cc.o
 
 # target to build an object file
 webget.cc.o:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/webget.cc.o
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/webget.cc.o
 .PHONY : webget.cc.o
 
 webget.i: webget.cc.i
@@ -153,7 +153,7 @@ webget.i: webget.cc.i
 
 # target to preprocess a source file
 webget.cc.i:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/webget.cc.i
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/webget.cc.i
 .PHONY : webget.cc.i
 
 webget.s: webget.cc.s
@@ -161,7 +161,7 @@ webget.s: webget.cc.s
 
 # target to generate assembly for a file
 webget.cc.s:
-	cd /home/zyy/cs144_lab/sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/webget.cc.s
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/webget.cc.s
 .PHONY : webget.cc.s
 
 # Help Target
@@ -188,6 +188,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zyy/cs144_lab/sponge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zyy/CS144lab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

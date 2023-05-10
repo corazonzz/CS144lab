@@ -1,9 +1,7 @@
 libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: \
- /home/zyy/cs144_lab/sponge/libsponge/util/socket.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/socket.hh \
- /home/zyy/cs144_lab/sponge/libsponge/util/address.hh \
- /usr/include/c++/9/cstddef \
+ /home/zyy/CS144lab/libsponge/util/socket.cc /usr/include/stdc-predef.h \
+ /home/zyy/CS144lab/libsponge/util/socket.hh \
+ /home/zyy/CS144lab/libsponge/util/address.hh /usr/include/c++/9/cstddef \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -152,9 +150,9 @@ libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/utility \
  /usr/include/c++/9/bits/stl_relops.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/file_descriptor.hh \
- /home/zyy/cs144_lab/sponge/libsponge/util/buffer.hh \
- /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /home/zyy/CS144lab/libsponge/util/file_descriptor.hh \
+ /home/zyy/CS144lab/libsponge/util/buffer.hh /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/stl_construct.h \
@@ -193,9 +191,9 @@ libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/util.hh \
- /usr/include/c++/9/iterator /usr/include/c++/9/ostream \
- /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
+ /home/zyy/CS144lab/libsponge/util/util.hh /usr/include/c++/9/iterator \
+ /usr/include/c++/9/ostream /usr/include/c++/9/ios \
+ /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \

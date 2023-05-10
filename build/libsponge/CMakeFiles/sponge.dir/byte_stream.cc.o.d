@@ -1,8 +1,7 @@
 libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: \
- /home/zyy/cs144_lab/sponge/libsponge/byte_stream.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/byte_stream.hh \
- /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_algobase.h \
+ /home/zyy/CS144lab/libsponge/byte_stream.cc /usr/include/stdc-predef.h \
+ /home/zyy/CS144lab/libsponge/byte_stream.hh /usr/include/c++/9/deque \
+ /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

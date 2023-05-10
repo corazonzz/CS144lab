@@ -9,7 +9,10 @@
 
 //! Bytes are written on the "input" side and read from the "output"
 //! side.  The byte stream is finite: the writer can end the input,
-//! and then no more bytes can be written.
+//! and then no more bytes can be written.data would overflow the `capacity` of this
+    //! `StreamReassembler`, then only the part of the data that fits will be
+    //! accepted. If the substring is only partially accepted, then the `eof`
+    //! will be disregarded.
 class ByteStream {
   private:
     // Your code here -- add private members as necessary.

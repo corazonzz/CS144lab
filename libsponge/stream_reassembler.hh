@@ -3,14 +3,24 @@
 
 #include "byte_stream.hh"
 
+#include <cstddef>
 #include <cstdint>
 #include <string>
+#include <map>
 
 //! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
 //! possibly overlapping) into an in-order byte stream.
 class StreamReassembler {
   private:
     // Your code here -- add private members as necessary.
+    std::map<size_t, std::string> idx_str;
+
+    size_t first_unread;
+    size_t first_unassembled;
+    size_t first_unacceptable;
+    size_t byte_unassembled;
+
+    size_t eof_;
 
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
@@ -41,6 +51,7 @@ class StreamReassembler {
 
     //! The number of bytes in the substrings stored but not yet reassembled
     //!
+
     //! \note If the byte at a particular index has been submitted twice, it
     //! should only be counted once for the purpose of this function.
     size_t unassembled_bytes() const;

@@ -1,4 +1,4 @@
-# Install script for directory: /home/zyy/cs144_lab/sponge/apps
+# Install script for directory: /home/zyy/CS144lab/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

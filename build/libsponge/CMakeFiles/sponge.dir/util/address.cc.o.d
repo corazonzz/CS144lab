@@ -1,8 +1,6 @@
 libsponge/CMakeFiles/sponge.dir/util/address.cc.o: \
- /home/zyy/cs144_lab/sponge/libsponge/util/address.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/address.hh \
- /usr/include/c++/9/cstddef \
+ /home/zyy/CS144lab/libsponge/util/address.cc /usr/include/stdc-predef.h \
+ /home/zyy/CS144lab/libsponge/util/address.hh /usr/include/c++/9/cstddef \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -151,8 +149,8 @@ libsponge/CMakeFiles/sponge.dir/util/address.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/utility \
  /usr/include/c++/9/bits/stl_relops.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/util.hh \
- /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /home/zyy/CS144lab/libsponge/util/util.hh /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/stl_construct.h \

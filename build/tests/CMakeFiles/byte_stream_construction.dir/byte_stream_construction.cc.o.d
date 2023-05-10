@@ -1,7 +1,6 @@
 tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: \
- /home/zyy/cs144_lab/sponge/tests/byte_stream_construction.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/byte_stream.hh \
+ /home/zyy/CS144lab/tests/byte_stream_construction.cc \
+ /usr/include/stdc-predef.h /home/zyy/CS144lab/libsponge/byte_stream.hh \
  /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -135,9 +134,9 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: \
  /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/vector \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /home/zyy/cs144_lab/sponge/tests/byte_stream_test_harness.hh \
- /home/zyy/cs144_lab/sponge/libsponge/util/util.hh \
- /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /home/zyy/CS144lab/tests/byte_stream_test_harness.hh \
+ /home/zyy/CS144lab/libsponge/util/util.hh /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/uniform_int_dist.h \

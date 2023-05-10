@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zyy/cs144_lab/sponge/tests/byte_stream_construction.cc" "tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o" "gcc" "tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o.d"
+  "/home/zyy/CS144lab/tests/byte_stream_construction.cc" "tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o" "gcc" "tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/zyy/cs144_lab/sponge/build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake"
-  "/home/zyy/cs144_lab/sponge/build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
+  "/home/zyy/CS144lab/build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake"
+  "/home/zyy/CS144lab/build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

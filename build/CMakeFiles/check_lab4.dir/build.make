@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyy/cs144_lab/sponge
+CMAKE_SOURCE_DIR = /home/zyy/CS144lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyy/cs144_lab/sponge/build
+CMAKE_BINARY_DIR = /home/zyy/CS144lab/build
 
 # Utility rule file for check_lab4.
 
@@ -67,8 +67,8 @@ include CMakeFiles/check_lab4.dir/compiler_depend.make
 include CMakeFiles/check_lab4.dir/progress.make
 
 CMakeFiles/check_lab4:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zyy/cs144_lab/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP connection..."
-	/home/zyy/cs144_lab/sponge/tun.sh check 144 145
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP connection..."
+	/home/zyy/CS144lab/tun.sh check 144 145
 	/usr/local/bin/ctest --output-on-failure --timeout 10 -R ^t_
 
 check_lab4: CMakeFiles/check_lab4
@@ -84,6 +84,6 @@ CMakeFiles/check_lab4.dir/clean:
 .PHONY : CMakeFiles/check_lab4.dir/clean
 
 CMakeFiles/check_lab4.dir/depend:
-	cd /home/zyy/cs144_lab/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zyy/cs144_lab/sponge /home/zyy/cs144_lab/sponge /home/zyy/cs144_lab/sponge/build /home/zyy/cs144_lab/sponge/build /home/zyy/cs144_lab/sponge/build/CMakeFiles/check_lab4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zyy/CS144lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zyy/CS144lab /home/zyy/CS144lab /home/zyy/CS144lab/build /home/zyy/CS144lab/build /home/zyy/CS144lab/build/CMakeFiles/check_lab4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check_lab4.dir/depend
 

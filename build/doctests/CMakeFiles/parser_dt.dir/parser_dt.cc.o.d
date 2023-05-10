@@ -1,9 +1,8 @@
 doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o: \
- /home/zyy/cs144_lab/sponge/doctests/parser_dt.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/parser.hh \
- /home/zyy/cs144_lab/sponge/libsponge/util/buffer.hh \
- /usr/include/c++/9/algorithm /usr/include/c++/9/utility \
+ /home/zyy/CS144lab/doctests/parser_dt.cc /usr/include/stdc-predef.h \
+ /home/zyy/CS144lab/libsponge/util/parser.hh \
+ /home/zyy/CS144lab/libsponge/util/buffer.hh /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/utility \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -169,4 +168,4 @@ doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
- /home/zyy/cs144_lab/sponge/doctests/parser_example.cc
+ /home/zyy/CS144lab/doctests/parser_example.cc

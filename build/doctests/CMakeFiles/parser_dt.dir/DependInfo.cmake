@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zyy/cs144_lab/sponge/doctests/parser_dt.cc" "doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o" "gcc" "doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o.d"
+  "/home/zyy/CS144lab/doctests/parser_dt.cc" "doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o" "gcc" "doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/zyy/cs144_lab/sponge/build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
+  "/home/zyy/CS144lab/build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

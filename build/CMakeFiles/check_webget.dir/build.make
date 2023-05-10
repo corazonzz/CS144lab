@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyy/cs144_lab/sponge
+CMAKE_SOURCE_DIR = /home/zyy/CS144lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyy/cs144_lab/sponge/build
+CMAKE_BINARY_DIR = /home/zyy/CS144lab/build
 
 # Utility rule file for check_webget.
 
@@ -67,7 +67,7 @@ include CMakeFiles/check_webget.dir/compiler_depend.make
 include CMakeFiles/check_webget.dir/progress.make
 
 CMakeFiles/check_webget:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zyy/cs144_lab/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing webget..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing webget..."
 	/usr/local/bin/ctest --output-on-failure --timeout 10 -R 't_webget'
 
 check_webget: CMakeFiles/check_webget
@@ -83,6 +83,6 @@ CMakeFiles/check_webget.dir/clean:
 .PHONY : CMakeFiles/check_webget.dir/clean
 
 CMakeFiles/check_webget.dir/depend:
-	cd /home/zyy/cs144_lab/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zyy/cs144_lab/sponge /home/zyy/cs144_lab/sponge /home/zyy/cs144_lab/sponge/build /home/zyy/cs144_lab/sponge/build /home/zyy/cs144_lab/sponge/build/CMakeFiles/check_webget.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zyy/CS144lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zyy/CS144lab /home/zyy/CS144lab /home/zyy/CS144lab/build /home/zyy/CS144lab/build /home/zyy/CS144lab/build/CMakeFiles/check_webget.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check_webget.dir/depend
 

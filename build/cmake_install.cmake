@@ -1,4 +1,4 @@
-# Install script for directory: /home/zyy/cs144_lab/sponge
+# Install script for directory: /home/zyy/CS144lab
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zyy/cs144_lab/sponge/build/libsponge/cmake_install.cmake")
-  include("/home/zyy/cs144_lab/sponge/build/apps/cmake_install.cmake")
-  include("/home/zyy/cs144_lab/sponge/build/tests/cmake_install.cmake")
-  include("/home/zyy/cs144_lab/sponge/build/doctests/cmake_install.cmake")
+  include("/home/zyy/CS144lab/build/libsponge/cmake_install.cmake")
+  include("/home/zyy/CS144lab/build/apps/cmake_install.cmake")
+  include("/home/zyy/CS144lab/build/tests/cmake_install.cmake")
+  include("/home/zyy/CS144lab/build/doctests/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zyy/cs144_lab/sponge/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zyy/CS144lab/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

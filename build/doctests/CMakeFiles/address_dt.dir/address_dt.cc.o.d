@@ -1,8 +1,6 @@
 doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: \
- /home/zyy/cs144_lab/sponge/doctests/address_dt.cc \
- /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/address.hh \
- /usr/include/c++/9/cstddef \
+ /home/zyy/CS144lab/doctests/address_dt.cc /usr/include/stdc-predef.h \
+ /home/zyy/CS144lab/libsponge/util/address.hh /usr/include/c++/9/cstddef \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -169,6 +167,6 @@ doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/zyy/cs144_lab/sponge/doctests/address_example_1.cc \
- /home/zyy/cs144_lab/sponge/doctests/address_example_2.cc \
- /home/zyy/cs144_lab/sponge/doctests/address_example_3.cc
+ /home/zyy/CS144lab/doctests/address_example_1.cc \
+ /home/zyy/CS144lab/doctests/address_example_2.cc \
+ /home/zyy/CS144lab/doctests/address_example_3.cc

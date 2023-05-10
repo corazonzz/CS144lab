@@ -1,10 +1,10 @@
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: \
- /home/zyy/cs144_lab/sponge/libsponge/util/eventloop.cc \
+ /home/zyy/CS144lab/libsponge/util/eventloop.cc \
  /usr/include/stdc-predef.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/eventloop.hh \
- /home/zyy/cs144_lab/sponge/libsponge/util/file_descriptor.hh \
- /home/zyy/cs144_lab/sponge/libsponge/util/buffer.hh \
- /usr/include/c++/9/algorithm /usr/include/c++/9/utility \
+ /home/zyy/CS144lab/libsponge/util/eventloop.hh \
+ /home/zyy/CS144lab/libsponge/util/file_descriptor.hh \
+ /home/zyy/CS144lab/libsponge/util/buffer.hh /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/utility \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -175,9 +175,9 @@ libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: \
  /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll2.h \
- /home/zyy/cs144_lab/sponge/libsponge/util/util.hh \
- /usr/include/c++/9/iterator /usr/include/c++/9/ostream \
- /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
+ /home/zyy/CS144lab/libsponge/util/util.hh /usr/include/c++/9/iterator \
+ /usr/include/c++/9/ostream /usr/include/c++/9/ios \
+ /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \
