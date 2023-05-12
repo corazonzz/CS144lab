@@ -73,15 +73,15 @@ doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: doctests/CMakeFiles/address_
 doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: /home/zyy/CS144lab/doctests/address_dt.cc
 doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: doctests/CMakeFiles/address_dt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doctests/CMakeFiles/address_dt.dir/address_dt.cc.o"
-	cd /home/zyy/CS144lab/build/doctests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT doctests/CMakeFiles/address_dt.dir/address_dt.cc.o -MF CMakeFiles/address_dt.dir/address_dt.cc.o.d -o CMakeFiles/address_dt.dir/address_dt.cc.o -c /home/zyy/CS144lab/doctests/address_dt.cc
+	cd /home/zyy/CS144lab/build/doctests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT doctests/CMakeFiles/address_dt.dir/address_dt.cc.o -MF CMakeFiles/address_dt.dir/address_dt.cc.o.d -o CMakeFiles/address_dt.dir/address_dt.cc.o -c /home/zyy/CS144lab/doctests/address_dt.cc
 
 doctests/CMakeFiles/address_dt.dir/address_dt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/address_dt.dir/address_dt.cc.i"
-	cd /home/zyy/CS144lab/build/doctests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/doctests/address_dt.cc > CMakeFiles/address_dt.dir/address_dt.cc.i
+	cd /home/zyy/CS144lab/build/doctests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/doctests/address_dt.cc > CMakeFiles/address_dt.dir/address_dt.cc.i
 
 doctests/CMakeFiles/address_dt.dir/address_dt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/address_dt.dir/address_dt.cc.s"
-	cd /home/zyy/CS144lab/build/doctests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/doctests/address_dt.cc -o CMakeFiles/address_dt.dir/address_dt.cc.s
+	cd /home/zyy/CS144lab/build/doctests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/doctests/address_dt.cc -o CMakeFiles/address_dt.dir/address_dt.cc.s
 
 # Object files for target address_dt
 address_dt_OBJECTS = \

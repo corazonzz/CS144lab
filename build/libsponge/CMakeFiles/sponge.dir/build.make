@@ -73,141 +73,141 @@ libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: libsponge/CMakeFiles/sponge.di
 libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: /home/zyy/CS144lab/libsponge/byte_stream.cc
 libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o -MF CMakeFiles/sponge.dir/byte_stream.cc.o.d -o CMakeFiles/sponge.dir/byte_stream.cc.o -c /home/zyy/CS144lab/libsponge/byte_stream.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o -MF CMakeFiles/sponge.dir/byte_stream.cc.o.d -o CMakeFiles/sponge.dir/byte_stream.cc.o -c /home/zyy/CS144lab/libsponge/byte_stream.cc
 
 libsponge/CMakeFiles/sponge.dir/byte_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/byte_stream.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/byte_stream.cc > CMakeFiles/sponge.dir/byte_stream.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/byte_stream.cc > CMakeFiles/sponge.dir/byte_stream.cc.i
 
 libsponge/CMakeFiles/sponge.dir/byte_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/byte_stream.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/byte_stream.cc -o CMakeFiles/sponge.dir/byte_stream.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/byte_stream.cc -o CMakeFiles/sponge.dir/byte_stream.cc.s
 
 libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o: /home/zyy/CS144lab/libsponge/stream_reassembler.cc
 libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o -MF CMakeFiles/sponge.dir/stream_reassembler.cc.o.d -o CMakeFiles/sponge.dir/stream_reassembler.cc.o -c /home/zyy/CS144lab/libsponge/stream_reassembler.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o -MF CMakeFiles/sponge.dir/stream_reassembler.cc.o.d -o CMakeFiles/sponge.dir/stream_reassembler.cc.o -c /home/zyy/CS144lab/libsponge/stream_reassembler.cc
 
 libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/stream_reassembler.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/stream_reassembler.cc > CMakeFiles/sponge.dir/stream_reassembler.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/stream_reassembler.cc > CMakeFiles/sponge.dir/stream_reassembler.cc.i
 
 libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/stream_reassembler.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/stream_reassembler.cc -o CMakeFiles/sponge.dir/stream_reassembler.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/stream_reassembler.cc -o CMakeFiles/sponge.dir/stream_reassembler.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/address.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/address.cc.o: /home/zyy/CS144lab/libsponge/util/address.cc
 libsponge/CMakeFiles/sponge.dir/util/address.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/address.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/address.cc.o -MF CMakeFiles/sponge.dir/util/address.cc.o.d -o CMakeFiles/sponge.dir/util/address.cc.o -c /home/zyy/CS144lab/libsponge/util/address.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/address.cc.o -MF CMakeFiles/sponge.dir/util/address.cc.o.d -o CMakeFiles/sponge.dir/util/address.cc.o -c /home/zyy/CS144lab/libsponge/util/address.cc
 
 libsponge/CMakeFiles/sponge.dir/util/address.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/address.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/address.cc > CMakeFiles/sponge.dir/util/address.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/address.cc > CMakeFiles/sponge.dir/util/address.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/address.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/address.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/address.cc -o CMakeFiles/sponge.dir/util/address.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/address.cc -o CMakeFiles/sponge.dir/util/address.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o: /home/zyy/CS144lab/libsponge/util/buffer.cc
 libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o -MF CMakeFiles/sponge.dir/util/buffer.cc.o.d -o CMakeFiles/sponge.dir/util/buffer.cc.o -c /home/zyy/CS144lab/libsponge/util/buffer.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o -MF CMakeFiles/sponge.dir/util/buffer.cc.o.d -o CMakeFiles/sponge.dir/util/buffer.cc.o -c /home/zyy/CS144lab/libsponge/util/buffer.cc
 
 libsponge/CMakeFiles/sponge.dir/util/buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/buffer.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/buffer.cc > CMakeFiles/sponge.dir/util/buffer.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/buffer.cc > CMakeFiles/sponge.dir/util/buffer.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/buffer.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/buffer.cc -o CMakeFiles/sponge.dir/util/buffer.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/buffer.cc -o CMakeFiles/sponge.dir/util/buffer.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: /home/zyy/CS144lab/libsponge/util/eventloop.cc
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o -MF CMakeFiles/sponge.dir/util/eventloop.cc.o.d -o CMakeFiles/sponge.dir/util/eventloop.cc.o -c /home/zyy/CS144lab/libsponge/util/eventloop.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o -MF CMakeFiles/sponge.dir/util/eventloop.cc.o.d -o CMakeFiles/sponge.dir/util/eventloop.cc.o -c /home/zyy/CS144lab/libsponge/util/eventloop.cc
 
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/eventloop.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/eventloop.cc > CMakeFiles/sponge.dir/util/eventloop.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/eventloop.cc > CMakeFiles/sponge.dir/util/eventloop.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/eventloop.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/eventloop.cc -o CMakeFiles/sponge.dir/util/eventloop.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/eventloop.cc -o CMakeFiles/sponge.dir/util/eventloop.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o: /home/zyy/CS144lab/libsponge/util/file_descriptor.cc
 libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o -MF CMakeFiles/sponge.dir/util/file_descriptor.cc.o.d -o CMakeFiles/sponge.dir/util/file_descriptor.cc.o -c /home/zyy/CS144lab/libsponge/util/file_descriptor.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o -MF CMakeFiles/sponge.dir/util/file_descriptor.cc.o.d -o CMakeFiles/sponge.dir/util/file_descriptor.cc.o -c /home/zyy/CS144lab/libsponge/util/file_descriptor.cc
 
 libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/file_descriptor.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/file_descriptor.cc > CMakeFiles/sponge.dir/util/file_descriptor.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/file_descriptor.cc > CMakeFiles/sponge.dir/util/file_descriptor.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/file_descriptor.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/file_descriptor.cc -o CMakeFiles/sponge.dir/util/file_descriptor.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/file_descriptor.cc -o CMakeFiles/sponge.dir/util/file_descriptor.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/parser.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/parser.cc.o: /home/zyy/CS144lab/libsponge/util/parser.cc
 libsponge/CMakeFiles/sponge.dir/util/parser.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/parser.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/parser.cc.o -MF CMakeFiles/sponge.dir/util/parser.cc.o.d -o CMakeFiles/sponge.dir/util/parser.cc.o -c /home/zyy/CS144lab/libsponge/util/parser.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/parser.cc.o -MF CMakeFiles/sponge.dir/util/parser.cc.o.d -o CMakeFiles/sponge.dir/util/parser.cc.o -c /home/zyy/CS144lab/libsponge/util/parser.cc
 
 libsponge/CMakeFiles/sponge.dir/util/parser.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/parser.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/parser.cc > CMakeFiles/sponge.dir/util/parser.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/parser.cc > CMakeFiles/sponge.dir/util/parser.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/parser.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/parser.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/parser.cc -o CMakeFiles/sponge.dir/util/parser.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/parser.cc -o CMakeFiles/sponge.dir/util/parser.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: /home/zyy/CS144lab/libsponge/util/socket.cc
 libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/socket.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/socket.cc.o -MF CMakeFiles/sponge.dir/util/socket.cc.o.d -o CMakeFiles/sponge.dir/util/socket.cc.o -c /home/zyy/CS144lab/libsponge/util/socket.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/socket.cc.o -MF CMakeFiles/sponge.dir/util/socket.cc.o.d -o CMakeFiles/sponge.dir/util/socket.cc.o -c /home/zyy/CS144lab/libsponge/util/socket.cc
 
 libsponge/CMakeFiles/sponge.dir/util/socket.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/socket.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/socket.cc > CMakeFiles/sponge.dir/util/socket.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/socket.cc > CMakeFiles/sponge.dir/util/socket.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/socket.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/socket.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/socket.cc -o CMakeFiles/sponge.dir/util/socket.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/socket.cc -o CMakeFiles/sponge.dir/util/socket.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/tun.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/tun.cc.o: /home/zyy/CS144lab/libsponge/util/tun.cc
 libsponge/CMakeFiles/sponge.dir/util/tun.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/tun.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/tun.cc.o -MF CMakeFiles/sponge.dir/util/tun.cc.o.d -o CMakeFiles/sponge.dir/util/tun.cc.o -c /home/zyy/CS144lab/libsponge/util/tun.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/tun.cc.o -MF CMakeFiles/sponge.dir/util/tun.cc.o.d -o CMakeFiles/sponge.dir/util/tun.cc.o -c /home/zyy/CS144lab/libsponge/util/tun.cc
 
 libsponge/CMakeFiles/sponge.dir/util/tun.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/tun.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/tun.cc > CMakeFiles/sponge.dir/util/tun.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/tun.cc > CMakeFiles/sponge.dir/util/tun.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/tun.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/tun.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/tun.cc -o CMakeFiles/sponge.dir/util/tun.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/tun.cc -o CMakeFiles/sponge.dir/util/tun.cc.s
 
 libsponge/CMakeFiles/sponge.dir/util/util.cc.o: libsponge/CMakeFiles/sponge.dir/flags.make
 libsponge/CMakeFiles/sponge.dir/util/util.cc.o: /home/zyy/CS144lab/libsponge/util/util.cc
 libsponge/CMakeFiles/sponge.dir/util/util.cc.o: libsponge/CMakeFiles/sponge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libsponge/CMakeFiles/sponge.dir/util/util.cc.o"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/util.cc.o -MF CMakeFiles/sponge.dir/util/util.cc.o.d -o CMakeFiles/sponge.dir/util/util.cc.o -c /home/zyy/CS144lab/libsponge/util/util.cc
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libsponge/CMakeFiles/sponge.dir/util/util.cc.o -MF CMakeFiles/sponge.dir/util/util.cc.o.d -o CMakeFiles/sponge.dir/util/util.cc.o -c /home/zyy/CS144lab/libsponge/util/util.cc
 
 libsponge/CMakeFiles/sponge.dir/util/util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sponge.dir/util/util.cc.i"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/util.cc > CMakeFiles/sponge.dir/util/util.cc.i
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/libsponge/util/util.cc > CMakeFiles/sponge.dir/util/util.cc.i
 
 libsponge/CMakeFiles/sponge.dir/util/util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sponge.dir/util/util.cc.s"
-	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/util.cc -o CMakeFiles/sponge.dir/util/util.cc.s
+	cd /home/zyy/CS144lab/build/libsponge && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/libsponge/util/util.cc -o CMakeFiles/sponge.dir/util/util.cc.s
 
 # Object files for target sponge
 sponge_OBJECTS = \

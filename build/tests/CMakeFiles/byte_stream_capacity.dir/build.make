@@ -73,15 +73,15 @@ tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o: tests/CMake
 tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o: /home/zyy/CS144lab/tests/byte_stream_capacity.cc
 tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o: tests/CMakeFiles/byte_stream_capacity.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o"
-	cd /home/zyy/CS144lab/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -MF CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o.d -o CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -c /home/zyy/CS144lab/tests/byte_stream_capacity.cc
+	cd /home/zyy/CS144lab/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -MF CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o.d -o CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -c /home/zyy/CS144lab/tests/byte_stream_capacity.cc
 
 tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.i"
-	cd /home/zyy/CS144lab/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/tests/byte_stream_capacity.cc > CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.i
+	cd /home/zyy/CS144lab/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/tests/byte_stream_capacity.cc > CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.i
 
 tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.s"
-	cd /home/zyy/CS144lab/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/tests/byte_stream_capacity.cc -o CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.s
+	cd /home/zyy/CS144lab/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/tests/byte_stream_capacity.cc -o CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.s
 
 # Object files for target byte_stream_capacity
 byte_stream_capacity_OBJECTS = \

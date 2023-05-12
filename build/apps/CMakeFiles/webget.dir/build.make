@@ -73,15 +73,15 @@ apps/CMakeFiles/webget.dir/webget.cc.o: apps/CMakeFiles/webget.dir/flags.make
 apps/CMakeFiles/webget.dir/webget.cc.o: /home/zyy/CS144lab/apps/webget.cc
 apps/CMakeFiles/webget.dir/webget.cc.o: apps/CMakeFiles/webget.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/webget.dir/webget.cc.o"
-	cd /home/zyy/CS144lab/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/webget.dir/webget.cc.o -MF CMakeFiles/webget.dir/webget.cc.o.d -o CMakeFiles/webget.dir/webget.cc.o -c /home/zyy/CS144lab/apps/webget.cc
+	cd /home/zyy/CS144lab/build/apps && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/webget.dir/webget.cc.o -MF CMakeFiles/webget.dir/webget.cc.o.d -o CMakeFiles/webget.dir/webget.cc.o -c /home/zyy/CS144lab/apps/webget.cc
 
 apps/CMakeFiles/webget.dir/webget.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webget.dir/webget.cc.i"
-	cd /home/zyy/CS144lab/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/apps/webget.cc > CMakeFiles/webget.dir/webget.cc.i
+	cd /home/zyy/CS144lab/build/apps && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/apps/webget.cc > CMakeFiles/webget.dir/webget.cc.i
 
 apps/CMakeFiles/webget.dir/webget.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webget.dir/webget.cc.s"
-	cd /home/zyy/CS144lab/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/apps/webget.cc -o CMakeFiles/webget.dir/webget.cc.s
+	cd /home/zyy/CS144lab/build/apps && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/apps/webget.cc -o CMakeFiles/webget.dir/webget.cc.s
 
 # Object files for target webget
 webget_OBJECTS = \

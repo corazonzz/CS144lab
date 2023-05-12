@@ -127,6 +127,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named doc
+
+# Build rule for target.
+doc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doc
+.PHONY : doc
+
+# fast build rule for target.
+doc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+.PHONY : doc/fast
+
+#=============================================================================
 # Target rules for targets named format
 
 # Build rule for target.
@@ -294,6 +307,19 @@ spongechecks: cmake_check_build_system
 spongechecks/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/build
 .PHONY : spongechecks/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_cap
+
+# Build rule for target.
+fsm_stream_reassembler_cap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_cap
+.PHONY : fsm_stream_reassembler_cap
+
+# fast build rule for target.
+fsm_stream_reassembler_cap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
+.PHONY : fsm_stream_reassembler_cap/fast
 
 #=============================================================================
 # Target rules for targets named fsm_stream_reassembler_single
@@ -508,6 +534,7 @@ help:
 	@echo "... check_lab5"
 	@echo "... check_lab6"
 	@echo "... check_webget"
+	@echo "... doc"
 	@echo "... format"
 	@echo "... address_dt"
 	@echo "... byte_stream_capacity"
@@ -515,6 +542,7 @@ help:
 	@echo "... byte_stream_many_writes"
 	@echo "... byte_stream_one_write"
 	@echo "... byte_stream_two_writes"
+	@echo "... fsm_stream_reassembler_cap"
 	@echo "... fsm_stream_reassembler_dup"
 	@echo "... fsm_stream_reassembler_holes"
 	@echo "... fsm_stream_reassembler_many"

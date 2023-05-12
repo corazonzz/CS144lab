@@ -15,20 +15,73 @@ void DUMMY_CODE(Targs &&... /* unused */) {}
 
 using namespace std;
 
-StreamReassembler::StreamReassembler(const size_t capacity) : idx_str(), first_unread(), first_unassembled(0), first_unacceptable(capacity), byte_unassembled(0) ,eof_(0), _output(capacity), _capacity(capacity) {}
+StreamReassembler::StreamReassembler(const size_t capacity) : c_store(capacity + 99999, '/'), c_judge(capacity + 99999,false), first_unread(0), first_unassembled(0), first_unacceptable(capacity), byte_unassembled(0) ,eof_(false), _output(capacity), _capacity(capacity) {}
 
 //! \details This function accepts a substring (aka a segment) of bytes,
 //! possibly out-of-order, from the logical stream, and assembles any newly
 //! contiguous substrings and writes them into the output stream in order.
 void StreamReassembler::push_substring(const string &data, const size_t index, const bool eof) {
-    // first insert index
+    //
+    first_unread = _output.bytes_read();
+    first_unacceptable = first_unread + _capacity;
+
+    for(size_t i = index; i < index + data.size(); ++i){
+        if(c_judge[i] == true){
+                continue;
+        }else{
+            c_store[i] = data[i-index];
+            c_judge[i] = true;
+            byte_unassembled++;
+        }
+    }
+
+    if(c_judge[first_unassembled] == true){
+        string s;
+        for(size_t i = first_unassembled; c_judge[i] && i < first_unacceptable; ++i){
+            s += c_store[i];
+        }
+        _output.write(s);
+        first_unassembled += s.size();
+        byte_unassembled -= s.size();
+    }
+
+    if(eof){
+        eof_ = true;
+    }
+    if(eof_ && empty())
+        _output.end_input();
+
+
+    //insert 
+  /*   for(auto iter = idx_str.begin(); iter != idx_str.end();){
+        if(first_unassembled >= iter->first){
+            if(iter->first + iter->second.size() < first_unassembled){
+                idx_str.erase(iter);
+            }else{
+                string s = iter->second.substr(iter->first - first_unassembled);
+                size_t writesize = _output.write(s);
+                if(writesize < s.size()){
+                    string str = s.substr(s.size() - writesize);
+                    idx_str[iter->first + writesize] = str;
+                }
+                idx_str.erase(iter);
+            }
+        }else{
+            break;
+        }
+    } */
+
+    
+
+
+/*     //merge the data to the 
     auto iter_ = idx_str.upper_bound(index);
     if(iter_ != idx_str.begin()){
         iter_--;
     }
     //update insert index
     size_t ready_insert = index;
-
+    // if the idx_str has only one element && 
     if(iter_ != idx_str.end() && iter_->first <= index){
         size_t up_idx = iter_->first;
 
@@ -101,9 +154,9 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
         eof_ = index + data.size();
     }
     if(eof_ <= first_unassembled)
-        _output.end_input();
+        _output.end_input(); */
 }
 
 size_t StreamReassembler::unassembled_bytes() const {return byte_unassembled;}
 
-bool StreamReassembler::empty() const { return byte_unassembled == 0; }
+bool StreamReassembler::empty() const { return unassembled_bytes() == 0; }

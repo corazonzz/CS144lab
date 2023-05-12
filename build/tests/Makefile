@@ -141,6 +141,20 @@ spongechecks/fast:
 .PHONY : spongechecks/fast
 
 # Convenience name for target.
+tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
+.PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
+
+# Convenience name for target.
+fsm_stream_reassembler_cap: tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
+.PHONY : fsm_stream_reassembler_cap
+
+# fast build rule for target.
+fsm_stream_reassembler_cap/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
+.PHONY : fsm_stream_reassembler_cap/fast
+
+# Convenience name for target.
 tests/CMakeFiles/fsm_stream_reassembler_single.dir/rule:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_single.dir/rule
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_single.dir/rule
@@ -452,6 +466,30 @@ byte_stream_two_writes.cc.s:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/byte_stream_two_writes.dir/build.make tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.s
 .PHONY : byte_stream_two_writes.cc.s
 
+fsm_stream_reassembler_cap.o: fsm_stream_reassembler_cap.cc.o
+.PHONY : fsm_stream_reassembler_cap.o
+
+# target to build an object file
+fsm_stream_reassembler_cap.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.o
+.PHONY : fsm_stream_reassembler_cap.cc.o
+
+fsm_stream_reassembler_cap.i: fsm_stream_reassembler_cap.cc.i
+.PHONY : fsm_stream_reassembler_cap.i
+
+# target to preprocess a source file
+fsm_stream_reassembler_cap.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.i
+.PHONY : fsm_stream_reassembler_cap.cc.i
+
+fsm_stream_reassembler_cap.s: fsm_stream_reassembler_cap.cc.s
+.PHONY : fsm_stream_reassembler_cap.s
+
+# target to generate assembly for a file
+fsm_stream_reassembler_cap.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.s
+.PHONY : fsm_stream_reassembler_cap.cc.s
+
 fsm_stream_reassembler_dup.o: fsm_stream_reassembler_dup.cc.o
 .PHONY : fsm_stream_reassembler_dup.o
 
@@ -634,6 +672,7 @@ help:
 	@echo "... byte_stream_many_writes"
 	@echo "... byte_stream_one_write"
 	@echo "... byte_stream_two_writes"
+	@echo "... fsm_stream_reassembler_cap"
 	@echo "... fsm_stream_reassembler_dup"
 	@echo "... fsm_stream_reassembler_holes"
 	@echo "... fsm_stream_reassembler_many"
@@ -660,6 +699,9 @@ help:
 	@echo "... byte_stream_two_writes.o"
 	@echo "... byte_stream_two_writes.i"
 	@echo "... byte_stream_two_writes.s"
+	@echo "... fsm_stream_reassembler_cap.o"
+	@echo "... fsm_stream_reassembler_cap.i"
+	@echo "... fsm_stream_reassembler_cap.s"
 	@echo "... fsm_stream_reassembler_dup.o"
 	@echo "... fsm_stream_reassembler_dup.i"
 	@echo "... fsm_stream_reassembler_dup.s"

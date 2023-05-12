@@ -77,6 +77,7 @@ preinstall: doctests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/doc.dir/clean
 clean: CMakeFiles/format.dir/clean
 clean: CMakeFiles/check_webget.dir/clean
 clean: CMakeFiles/check_lab0.dir/clean
@@ -147,6 +148,7 @@ libsponge/clean: libsponge/CMakeFiles/sponge.dir/clean
 
 # Recursive "all" directory target.
 tests/all: tests/CMakeFiles/spongechecks.dir/all
+tests/all: tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all
 tests/all: tests/CMakeFiles/fsm_stream_reassembler_single.dir/all
 tests/all: tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all
 tests/all: tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all
@@ -167,6 +169,7 @@ tests/preinstall:
 
 # Recursive "clean" directory target.
 tests/clean: tests/CMakeFiles/spongechecks.dir/clean
+tests/clean: tests/CMakeFiles/fsm_stream_reassembler_cap.dir/clean
 tests/clean: tests/CMakeFiles/fsm_stream_reassembler_single.dir/clean
 tests/clean: tests/CMakeFiles/fsm_stream_reassembler_seq.dir/clean
 tests/clean: tests/CMakeFiles/fsm_stream_reassembler_dup.dir/clean
@@ -180,6 +183,32 @@ tests/clean: tests/CMakeFiles/byte_stream_two_writes.dir/clean
 tests/clean: tests/CMakeFiles/byte_stream_capacity.dir/clean
 tests/clean: tests/CMakeFiles/byte_stream_many_writes.dir/clean
 .PHONY : tests/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/doc.dir
+
+# All Build rule for target.
+CMakeFiles/doc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=22 "Built target doc"
+.PHONY : CMakeFiles/doc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/doc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/CS144lab/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/CS144lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/doc.dir/rule
+
+# Convenience name for target.
+doc: CMakeFiles/doc.dir/rule
+.PHONY : doc
+
+# clean rule for target.
+CMakeFiles/doc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/clean
+.PHONY : CMakeFiles/doc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/format.dir
@@ -448,7 +477,7 @@ CMakeFiles/check.dir/clean:
 libsponge/CMakeFiles/sponge.dir/all:
 	$(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/depend
 	$(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50 "Built target sponge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53 "Built target sponge"
 .PHONY : libsponge/CMakeFiles/sponge.dir/all
 
 # Build rule for subdir invocation for target.
@@ -474,7 +503,7 @@ libsponge/CMakeFiles/sponge.dir/clean:
 apps/CMakeFiles/webget.dir/all: libsponge/CMakeFiles/sponge.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=53,54 "Built target webget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=56,57 "Built target webget"
 .PHONY : apps/CMakeFiles/webget.dir/all
 
 # Build rule for subdir invocation for target.
@@ -500,7 +529,7 @@ apps/CMakeFiles/webget.dir/clean:
 tests/CMakeFiles/spongechecks.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=51,52 "Built target spongechecks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=54,55 "Built target spongechecks"
 .PHONY : tests/CMakeFiles/spongechecks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -520,6 +549,33 @@ tests/CMakeFiles/spongechecks.dir/clean:
 .PHONY : tests/CMakeFiles/spongechecks.dir/clean
 
 #=============================================================================
+# Target rules for target tests/CMakeFiles/fsm_stream_reassembler_cap.dir
+
+# All Build rule for target.
+tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: tests/CMakeFiles/spongechecks.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=23,24 "Built target fsm_stream_reassembler_cap"
+.PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/CS144lab/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyy/CS144lab/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
+
+# Convenience name for target.
+fsm_stream_reassembler_cap: tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
+.PHONY : fsm_stream_reassembler_cap
+
+# clean rule for target.
+tests/CMakeFiles/fsm_stream_reassembler_cap.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/clean
+.PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/clean
+
+#=============================================================================
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_single.dir
 
 # All Build rule for target.
@@ -527,7 +583,7 @@ tests/CMakeFiles/fsm_stream_reassembler_single.dir/all: libsponge/CMakeFiles/spo
 tests/CMakeFiles/fsm_stream_reassembler_single.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_single.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_single.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_single.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_single.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=32,33 "Built target fsm_stream_reassembler_single"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=35,36 "Built target fsm_stream_reassembler_single"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_single.dir/all
 
 # Build rule for subdir invocation for target.
@@ -554,7 +610,7 @@ tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=30,31 "Built target fsm_stream_reassembler_seq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=33,34 "Built target fsm_stream_reassembler_seq"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all
 
 # Build rule for subdir invocation for target.
@@ -581,7 +637,7 @@ tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=22,23 "Built target fsm_stream_reassembler_dup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=25,26 "Built target fsm_stream_reassembler_dup"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all
 
 # Build rule for subdir invocation for target.
@@ -608,7 +664,7 @@ tests/CMakeFiles/fsm_stream_reassembler_holes.dir/all: libsponge/CMakeFiles/spon
 tests/CMakeFiles/fsm_stream_reassembler_holes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_holes.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_holes.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_holes.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_holes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=24,25 "Built target fsm_stream_reassembler_holes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=27,28 "Built target fsm_stream_reassembler_holes"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_holes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -635,7 +691,7 @@ tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: libsponge/CMakeFiles/spong
 tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_many.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_many.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=26,27 "Built target fsm_stream_reassembler_many"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=29,30 "Built target fsm_stream_reassembler_many"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_many.dir/all
 
 # Build rule for subdir invocation for target.
@@ -662,7 +718,7 @@ tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: libsponge/CMakeFile
 tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=28,29 "Built target fsm_stream_reassembler_overlapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=31,32 "Built target fsm_stream_reassembler_overlapping"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all
 
 # Build rule for subdir invocation for target.
@@ -689,7 +745,7 @@ tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=34,35 "Built target fsm_stream_reassembler_win"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=37,38 "Built target fsm_stream_reassembler_win"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_win.dir/all
 
 # Build rule for subdir invocation for target.
@@ -876,7 +932,7 @@ doctests/CMakeFiles/address_dt.dir/clean:
 doctests/CMakeFiles/parser_dt.dir/all: libsponge/CMakeFiles/sponge.dir/all
 	$(MAKE) $(MAKESILENT) -f doctests/CMakeFiles/parser_dt.dir/build.make doctests/CMakeFiles/parser_dt.dir/depend
 	$(MAKE) $(MAKESILENT) -f doctests/CMakeFiles/parser_dt.dir/build.make doctests/CMakeFiles/parser_dt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=36,37 "Built target parser_dt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=39,40 "Built target parser_dt"
 .PHONY : doctests/CMakeFiles/parser_dt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -902,7 +958,7 @@ doctests/CMakeFiles/parser_dt.dir/clean:
 doctests/CMakeFiles/socket_dt.dir/all: libsponge/CMakeFiles/sponge.dir/all
 	$(MAKE) $(MAKESILENT) -f doctests/CMakeFiles/socket_dt.dir/build.make doctests/CMakeFiles/socket_dt.dir/depend
 	$(MAKE) $(MAKESILENT) -f doctests/CMakeFiles/socket_dt.dir/build.make doctests/CMakeFiles/socket_dt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=38,39 "Built target socket_dt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=41,42 "Built target socket_dt"
 .PHONY : doctests/CMakeFiles/socket_dt.dir/all
 
 # Build rule for subdir invocation for target.

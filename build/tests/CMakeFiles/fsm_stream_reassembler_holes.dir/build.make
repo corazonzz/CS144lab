@@ -73,15 +73,15 @@ tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.c
 tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o: /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc
 tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o: tests/CMakeFiles/fsm_stream_reassembler_holes.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o"
-	cd /home/zyy/CS144lab/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o -MF CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o.d -o CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o -c /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc
+	cd /home/zyy/CS144lab/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o -MF CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o.d -o CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.o -c /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc
 
 tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.i"
-	cd /home/zyy/CS144lab/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc > CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.i
+	cd /home/zyy/CS144lab/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc > CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.i
 
 tests/CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.s"
-	cd /home/zyy/CS144lab/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc -o CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.s
+	cd /home/zyy/CS144lab/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/CS144lab/tests/fsm_stream_reassembler_holes.cc -o CMakeFiles/fsm_stream_reassembler_holes.dir/fsm_stream_reassembler_holes.cc.s
 
 # Object files for target fsm_stream_reassembler_holes
 fsm_stream_reassembler_holes_OBJECTS = \
