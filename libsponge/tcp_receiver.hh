@@ -6,6 +6,8 @@
 #include "tcp_segment.hh"
 #include "wrapping_integers.hh"
 
+#include <cstddef>
+#include <cstdint>
 #include <optional>
 
 //! \brief The "receiver" part of a TCP implementation.
@@ -16,7 +18,10 @@
 class TCPReceiver {
     //! Our data structure for re-assembling bytes.
     StreamReassembler _reassembler;
-
+    bool syn_rec = false;
+    bool fin_rec = false;
+    uint32_t isn_ = 0;
+    size_t cnt = 0;
     //! The maximum number of bytes we'll store.
     size_t _capacity;
 
