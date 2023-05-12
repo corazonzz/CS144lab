@@ -141,6 +141,20 @@ spongechecks/fast:
 .PHONY : spongechecks/fast
 
 # Convenience name for target.
+tests/CMakeFiles/tcp_parser.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tcp_parser.dir/rule
+.PHONY : tests/CMakeFiles/tcp_parser.dir/rule
+
+# Convenience name for target.
+tcp_parser: tests/CMakeFiles/tcp_parser.dir/rule
+.PHONY : tcp_parser
+
+# fast build rule for target.
+tcp_parser/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/build
+.PHONY : tcp_parser/fast
+
+# Convenience name for target.
 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
@@ -253,6 +267,48 @@ fsm_stream_reassembler_win/fast:
 .PHONY : fsm_stream_reassembler_win/fast
 
 # Convenience name for target.
+tests/CMakeFiles/wrapping_integers_cmp.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_cmp.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_cmp.dir/rule
+
+# Convenience name for target.
+wrapping_integers_cmp: tests/CMakeFiles/wrapping_integers_cmp.dir/rule
+.PHONY : wrapping_integers_cmp
+
+# fast build rule for target.
+wrapping_integers_cmp/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
+.PHONY : wrapping_integers_cmp/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_unwrap.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_unwrap.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_unwrap.dir/rule
+
+# Convenience name for target.
+wrapping_integers_unwrap: tests/CMakeFiles/wrapping_integers_unwrap.dir/rule
+.PHONY : wrapping_integers_unwrap
+
+# fast build rule for target.
+wrapping_integers_unwrap/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/build
+.PHONY : wrapping_integers_unwrap/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_wrap.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_wrap.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_wrap.dir/rule
+
+# Convenience name for target.
+wrapping_integers_wrap: tests/CMakeFiles/wrapping_integers_wrap.dir/rule
+.PHONY : wrapping_integers_wrap
+
+# fast build rule for target.
+wrapping_integers_wrap/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/build
+.PHONY : wrapping_integers_wrap/fast
+
+# Convenience name for target.
 tests/CMakeFiles/byte_stream_construction.dir/rule:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/byte_stream_construction.dir/rule
 .PHONY : tests/CMakeFiles/byte_stream_construction.dir/rule
@@ -321,6 +377,76 @@ byte_stream_many_writes: tests/CMakeFiles/byte_stream_many_writes.dir/rule
 byte_stream_many_writes/fast:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/byte_stream_many_writes.dir/build.make tests/CMakeFiles/byte_stream_many_writes.dir/build
 .PHONY : byte_stream_many_writes/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_connect.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_connect.dir/rule
+.PHONY : tests/CMakeFiles/recv_connect.dir/rule
+
+# Convenience name for target.
+recv_connect: tests/CMakeFiles/recv_connect.dir/rule
+.PHONY : recv_connect
+
+# fast build rule for target.
+recv_connect/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/build
+.PHONY : recv_connect/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_transmit.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_transmit.dir/rule
+.PHONY : tests/CMakeFiles/recv_transmit.dir/rule
+
+# Convenience name for target.
+recv_transmit: tests/CMakeFiles/recv_transmit.dir/rule
+.PHONY : recv_transmit
+
+# fast build rule for target.
+recv_transmit/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/build
+.PHONY : recv_transmit/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_window.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_window.dir/rule
+.PHONY : tests/CMakeFiles/recv_window.dir/rule
+
+# Convenience name for target.
+recv_window: tests/CMakeFiles/recv_window.dir/rule
+.PHONY : recv_window
+
+# fast build rule for target.
+recv_window/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/build
+.PHONY : recv_window/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_reorder.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_reorder.dir/rule
+.PHONY : tests/CMakeFiles/recv_reorder.dir/rule
+
+# Convenience name for target.
+recv_reorder: tests/CMakeFiles/recv_reorder.dir/rule
+.PHONY : recv_reorder
+
+# fast build rule for target.
+recv_reorder/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/build
+.PHONY : recv_reorder/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_close.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_close.dir/rule
+.PHONY : tests/CMakeFiles/recv_close.dir/rule
+
+# Convenience name for target.
+recv_close: tests/CMakeFiles/recv_close.dir/rule
+.PHONY : recv_close
+
+# fast build rule for target.
+recv_close/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/build
+.PHONY : recv_close/fast
 
 byte_stream_capacity.o: byte_stream_capacity.cc.o
 .PHONY : byte_stream_capacity.o
@@ -658,6 +784,222 @@ fsm_stream_reassembler_win.cc.s:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/fsm_stream_reassembler_win.cc.s
 .PHONY : fsm_stream_reassembler_win.cc.s
 
+recv_close.o: recv_close.cc.o
+.PHONY : recv_close.o
+
+# target to build an object file
+recv_close.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/recv_close.cc.o
+.PHONY : recv_close.cc.o
+
+recv_close.i: recv_close.cc.i
+.PHONY : recv_close.i
+
+# target to preprocess a source file
+recv_close.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/recv_close.cc.i
+.PHONY : recv_close.cc.i
+
+recv_close.s: recv_close.cc.s
+.PHONY : recv_close.s
+
+# target to generate assembly for a file
+recv_close.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/recv_close.cc.s
+.PHONY : recv_close.cc.s
+
+recv_connect.o: recv_connect.cc.o
+.PHONY : recv_connect.o
+
+# target to build an object file
+recv_connect.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o
+.PHONY : recv_connect.cc.o
+
+recv_connect.i: recv_connect.cc.i
+.PHONY : recv_connect.i
+
+# target to preprocess a source file
+recv_connect.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/recv_connect.cc.i
+.PHONY : recv_connect.cc.i
+
+recv_connect.s: recv_connect.cc.s
+.PHONY : recv_connect.s
+
+# target to generate assembly for a file
+recv_connect.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/recv_connect.cc.s
+.PHONY : recv_connect.cc.s
+
+recv_reorder.o: recv_reorder.cc.o
+.PHONY : recv_reorder.o
+
+# target to build an object file
+recv_reorder.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o
+.PHONY : recv_reorder.cc.o
+
+recv_reorder.i: recv_reorder.cc.i
+.PHONY : recv_reorder.i
+
+# target to preprocess a source file
+recv_reorder.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.i
+.PHONY : recv_reorder.cc.i
+
+recv_reorder.s: recv_reorder.cc.s
+.PHONY : recv_reorder.s
+
+# target to generate assembly for a file
+recv_reorder.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.s
+.PHONY : recv_reorder.cc.s
+
+recv_transmit.o: recv_transmit.cc.o
+.PHONY : recv_transmit.o
+
+# target to build an object file
+recv_transmit.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o
+.PHONY : recv_transmit.cc.o
+
+recv_transmit.i: recv_transmit.cc.i
+.PHONY : recv_transmit.i
+
+# target to preprocess a source file
+recv_transmit.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.i
+.PHONY : recv_transmit.cc.i
+
+recv_transmit.s: recv_transmit.cc.s
+.PHONY : recv_transmit.s
+
+# target to generate assembly for a file
+recv_transmit.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.s
+.PHONY : recv_transmit.cc.s
+
+recv_window.o: recv_window.cc.o
+.PHONY : recv_window.o
+
+# target to build an object file
+recv_window.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.o
+.PHONY : recv_window.cc.o
+
+recv_window.i: recv_window.cc.i
+.PHONY : recv_window.i
+
+# target to preprocess a source file
+recv_window.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.i
+.PHONY : recv_window.cc.i
+
+recv_window.s: recv_window.cc.s
+.PHONY : recv_window.s
+
+# target to generate assembly for a file
+recv_window.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.s
+.PHONY : recv_window.cc.s
+
+tcp_parser.o: tcp_parser.cc.o
+.PHONY : tcp_parser.o
+
+# target to build an object file
+tcp_parser.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o
+.PHONY : tcp_parser.cc.o
+
+tcp_parser.i: tcp_parser.cc.i
+.PHONY : tcp_parser.i
+
+# target to preprocess a source file
+tcp_parser.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.i
+.PHONY : tcp_parser.cc.i
+
+tcp_parser.s: tcp_parser.cc.s
+.PHONY : tcp_parser.s
+
+# target to generate assembly for a file
+tcp_parser.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.s
+.PHONY : tcp_parser.cc.s
+
+wrapping_integers_cmp.o: wrapping_integers_cmp.cc.o
+.PHONY : wrapping_integers_cmp.o
+
+# target to build an object file
+wrapping_integers_cmp.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o
+.PHONY : wrapping_integers_cmp.cc.o
+
+wrapping_integers_cmp.i: wrapping_integers_cmp.cc.i
+.PHONY : wrapping_integers_cmp.i
+
+# target to preprocess a source file
+wrapping_integers_cmp.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.i
+.PHONY : wrapping_integers_cmp.cc.i
+
+wrapping_integers_cmp.s: wrapping_integers_cmp.cc.s
+.PHONY : wrapping_integers_cmp.s
+
+# target to generate assembly for a file
+wrapping_integers_cmp.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.s
+.PHONY : wrapping_integers_cmp.cc.s
+
+wrapping_integers_unwrap.o: wrapping_integers_unwrap.cc.o
+.PHONY : wrapping_integers_unwrap.o
+
+# target to build an object file
+wrapping_integers_unwrap.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o
+.PHONY : wrapping_integers_unwrap.cc.o
+
+wrapping_integers_unwrap.i: wrapping_integers_unwrap.cc.i
+.PHONY : wrapping_integers_unwrap.i
+
+# target to preprocess a source file
+wrapping_integers_unwrap.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.i
+.PHONY : wrapping_integers_unwrap.cc.i
+
+wrapping_integers_unwrap.s: wrapping_integers_unwrap.cc.s
+.PHONY : wrapping_integers_unwrap.s
+
+# target to generate assembly for a file
+wrapping_integers_unwrap.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.s
+.PHONY : wrapping_integers_unwrap.cc.s
+
+wrapping_integers_wrap.o: wrapping_integers_wrap.cc.o
+.PHONY : wrapping_integers_wrap.o
+
+# target to build an object file
+wrapping_integers_wrap.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o
+.PHONY : wrapping_integers_wrap.cc.o
+
+wrapping_integers_wrap.i: wrapping_integers_wrap.cc.i
+.PHONY : wrapping_integers_wrap.i
+
+# target to preprocess a source file
+wrapping_integers_wrap.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.i
+.PHONY : wrapping_integers_wrap.cc.i
+
+wrapping_integers_wrap.s: wrapping_integers_wrap.cc.s
+.PHONY : wrapping_integers_wrap.s
+
+# target to generate assembly for a file
+wrapping_integers_wrap.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.s
+.PHONY : wrapping_integers_wrap.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -680,7 +1022,16 @@ help:
 	@echo "... fsm_stream_reassembler_seq"
 	@echo "... fsm_stream_reassembler_single"
 	@echo "... fsm_stream_reassembler_win"
+	@echo "... recv_close"
+	@echo "... recv_connect"
+	@echo "... recv_reorder"
+	@echo "... recv_transmit"
+	@echo "... recv_window"
 	@echo "... spongechecks"
+	@echo "... tcp_parser"
+	@echo "... wrapping_integers_cmp"
+	@echo "... wrapping_integers_unwrap"
+	@echo "... wrapping_integers_wrap"
 	@echo "... byte_stream_capacity.o"
 	@echo "... byte_stream_capacity.i"
 	@echo "... byte_stream_capacity.s"
@@ -723,6 +1074,33 @@ help:
 	@echo "... fsm_stream_reassembler_win.o"
 	@echo "... fsm_stream_reassembler_win.i"
 	@echo "... fsm_stream_reassembler_win.s"
+	@echo "... recv_close.o"
+	@echo "... recv_close.i"
+	@echo "... recv_close.s"
+	@echo "... recv_connect.o"
+	@echo "... recv_connect.i"
+	@echo "... recv_connect.s"
+	@echo "... recv_reorder.o"
+	@echo "... recv_reorder.i"
+	@echo "... recv_reorder.s"
+	@echo "... recv_transmit.o"
+	@echo "... recv_transmit.i"
+	@echo "... recv_transmit.s"
+	@echo "... recv_window.o"
+	@echo "... recv_window.i"
+	@echo "... recv_window.s"
+	@echo "... tcp_parser.o"
+	@echo "... tcp_parser.i"
+	@echo "... tcp_parser.s"
+	@echo "... wrapping_integers_cmp.o"
+	@echo "... wrapping_integers_cmp.i"
+	@echo "... wrapping_integers_cmp.s"
+	@echo "... wrapping_integers_unwrap.o"
+	@echo "... wrapping_integers_unwrap.i"
+	@echo "... wrapping_integers_unwrap.s"
+	@echo "... wrapping_integers_wrap.o"
+	@echo "... wrapping_integers_wrap.i"
+	@echo "... wrapping_integers_wrap.s"
 .PHONY : help
 
 

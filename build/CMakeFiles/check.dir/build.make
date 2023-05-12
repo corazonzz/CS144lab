@@ -69,8 +69,7 @@ include CMakeFiles/check.dir/progress.make
 CMakeFiles/check:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zyy/CS144lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing libsponge..."
 	/home/zyy/CS144lab/tun.sh check 144 145
-	/home/zyy/CS144lab/tap.sh check 10
-	/usr/local/bin/ctest --output-on-failure --timeout 10 -R '^t_|^arp_|^router_'
+	/usr/local/bin/ctest --output-on-failure --timeout 10 -R ^t_
 
 check: CMakeFiles/check
 check: CMakeFiles/check.dir/build.make

@@ -6,8 +6,6 @@
 /home/zyy/CS144lab/build/CMakeFiles/check_lab2.dir
 /home/zyy/CS144lab/build/CMakeFiles/check_lab3.dir
 /home/zyy/CS144lab/build/CMakeFiles/check_lab4.dir
-/home/zyy/CS144lab/build/CMakeFiles/check_lab5.dir
-/home/zyy/CS144lab/build/CMakeFiles/check_lab6.dir
 /home/zyy/CS144lab/build/CMakeFiles/check.dir
 /home/zyy/CS144lab/build/CMakeFiles/test.dir
 /home/zyy/CS144lab/build/CMakeFiles/edit_cache.dir
@@ -21,6 +19,7 @@
 /home/zyy/CS144lab/build/apps/CMakeFiles/edit_cache.dir
 /home/zyy/CS144lab/build/apps/CMakeFiles/rebuild_cache.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/spongechecks.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/tcp_parser.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/fsm_stream_reassembler_cap.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/fsm_stream_reassembler_single.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/fsm_stream_reassembler_seq.dir
@@ -29,11 +28,19 @@
 /home/zyy/CS144lab/build/tests/CMakeFiles/fsm_stream_reassembler_many.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/fsm_stream_reassembler_win.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/wrapping_integers_cmp.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/wrapping_integers_unwrap.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/wrapping_integers_wrap.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/byte_stream_construction.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/byte_stream_one_write.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/byte_stream_two_writes.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/byte_stream_capacity.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/byte_stream_many_writes.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/recv_connect.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/recv_transmit.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/recv_window.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/recv_reorder.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/recv_close.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/test.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/edit_cache.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/rebuild_cache.dir
