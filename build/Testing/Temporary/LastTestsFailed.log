@@ -1,2 +1,6 @@
-5:t_recv_transmit
-6:t_recv_window
+9:t_send_connect
+10:t_send_transmit
+11:t_send_retx
+12:t_send_window
+13:t_send_ack
+14:t_send_close

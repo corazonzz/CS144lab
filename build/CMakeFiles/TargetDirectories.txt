@@ -41,6 +41,12 @@
 /home/zyy/CS144lab/build/tests/CMakeFiles/recv_window.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/recv_reorder.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/recv_close.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/send_connect.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/send_transmit.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/send_retx.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/send_ack.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/send_window.dir
+/home/zyy/CS144lab/build/tests/CMakeFiles/send_close.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/test.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/edit_cache.dir
 /home/zyy/CS144lab/build/tests/CMakeFiles/rebuild_cache.dir

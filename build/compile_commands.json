@@ -31,6 +31,11 @@
 },
 {
   "directory": "/home/zyy/CS144lab/build/libsponge",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_sender.cc.o -c /home/zyy/CS144lab/libsponge/tcp_sender.cc",
+  "file": "/home/zyy/CS144lab/libsponge/tcp_sender.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/libsponge",
   "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/util/address.cc.o -c /home/zyy/CS144lab/libsponge/util/address.cc",
   "file": "/home/zyy/CS144lab/libsponge/util/address.cc"
 },
@@ -193,6 +198,36 @@
   "directory": "/home/zyy/CS144lab/build/tests",
   "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/recv_close.dir/recv_close.cc.o -c /home/zyy/CS144lab/tests/recv_close.cc",
   "file": "/home/zyy/CS144lab/tests/recv_close.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/tests",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_connect.dir/send_connect.cc.o -c /home/zyy/CS144lab/tests/send_connect.cc",
+  "file": "/home/zyy/CS144lab/tests/send_connect.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/tests",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_transmit.dir/send_transmit.cc.o -c /home/zyy/CS144lab/tests/send_transmit.cc",
+  "file": "/home/zyy/CS144lab/tests/send_transmit.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/tests",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_retx.dir/send_retx.cc.o -c /home/zyy/CS144lab/tests/send_retx.cc",
+  "file": "/home/zyy/CS144lab/tests/send_retx.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/tests",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_ack.dir/send_ack.cc.o -c /home/zyy/CS144lab/tests/send_ack.cc",
+  "file": "/home/zyy/CS144lab/tests/send_ack.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/tests",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_window.dir/send_window.cc.o -c /home/zyy/CS144lab/tests/send_window.cc",
+  "file": "/home/zyy/CS144lab/tests/send_window.cc"
+},
+{
+  "directory": "/home/zyy/CS144lab/build/tests",
+  "command": "/usr/bin/g++  -I/home/zyy/CS144lab/libsponge/util -I/home/zyy/CS144lab/libsponge/tcp_helpers -I/home/zyy/CS144lab/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_close.dir/send_close.cc.o -c /home/zyy/CS144lab/tests/send_close.cc",
+  "file": "/home/zyy/CS144lab/tests/send_close.cc"
 },
 {
   "directory": "/home/zyy/CS144lab/build/doctests",
