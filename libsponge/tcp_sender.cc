@@ -30,11 +30,11 @@ void TCPSender::fill_window() {
     if(!send_syn){
         TCPSegment seg;
         seg.header().syn = true;
-        seg.header().seqno = wrap(_next_seqno, _isn);
+        seg.header().seqno = wrap(_next_seqno,_isn);
+        _segments_out.push(seg);
+        _segments_outstanding.push(seg);
         _next_seqno += seg.length_in_sequence_space();
         _bytes_in_flight += seg.length_in_sequence_space();
-        _segments_outstanding.push(seg);
-        _segments_out.push(seg);
         if(!retransmission_start){
             retransmission_start = true;
             _time = 0;
@@ -57,12 +57,12 @@ void TCPSender::fill_window() {
         }
         seg.payload() = Buffer(std::move(str));
         seg.header().seqno = wrap(_next_seqno,_isn);
+        if(seg.length_in_sequence_space() == 0)
+                break;
         _segments_out.push(seg);
         _segments_outstanding.push(seg);
         _next_seqno += seg.length_in_sequence_space();
         _bytes_in_flight += seg.length_in_sequence_space();
-        if(seg.length_in_sequence_space() == 0)
-                break;
         if(!retransmission_start){
             retransmission_start = true;
             _time = 0;
@@ -75,7 +75,7 @@ void TCPSender::fill_window() {
 //! \param window_size The remote receiver's advertised window size
 //! \returns `false` if the ackno appears invalid (acknowledges something the TCPSender hasn't sent yet)
 bool TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) {
-    uint64_t left = unwrap(ackno,_isn, recvackno);
+    size_t left = unwrap(ackno,_isn, recvackno);
     if(left > _next_seqno){
         return false;
     }

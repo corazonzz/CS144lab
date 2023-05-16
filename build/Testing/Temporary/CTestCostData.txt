@@ -1,38 +1,34 @@
-t_strm_reassem_cap 22 3.667e-05
-t_strm_reassem_single 21 4.06222e-05
-t_strm_reassem_seq 21 8.035e-05
-t_strm_reassem_dup 21 0.000191801
-t_strm_reassem_holes 21 6.17507e-05
-t_strm_reassem_many 22 0.00292367
-t_strm_reassem_overlapping 22 6.3946e-05
-t_strm_reassem_win 22 0.00311637
-t_byte_stream_construction 31 4.82516e-05
-t_byte_stream_one_write 31 3.23768e-05
-t_byte_stream_two_writes 31 3.13229e-05
-t_byte_stream_capacity 31 3.11752e-05
-t_byte_stream_many_writes 31 0.000143782
-t_webget 29 0.0347606
-t_address_dt 31 0.000289435
-t_parser_dt 31 3.59309e-05
-t_socket_dt 31 6.79606e-05
-t_wrapping_ints_cmp 23 6.79344e-05
-t_wrapping_ints_unwrap 20 8.78092e-05
-t_wrapping_ints_wrap 20 6.62987e-05
-t_recv_connect 16 7.62418e-05
-t_recv_transmit 9 0.00320559
-t_recv_window 9 0.00017867
-t_recv_reorder 15 8.13306e-05
-t_recv_close 15 7.1806e-05
-t_send_connect 0 0
-t_send_transmit 0 0
+t_strm_reassem_cap 26 6.26292e-05
+t_strm_reassem_single 25 6.55452e-05
+t_strm_reassem_seq 25 8.79929e-05
+t_strm_reassem_dup 25 0.000183176
+t_strm_reassem_holes 25 5.8724e-05
+t_strm_reassem_many 26 0.0022874
+t_strm_reassem_overlapping 26 5.23206e-05
+t_strm_reassem_win 26 0.00238205
+t_byte_stream_construction 35 3.37817e-05
+t_byte_stream_one_write 35 2.55237e-05
+t_byte_stream_two_writes 35 2.41213e-05
+t_byte_stream_capacity 35 2.67191e-05
+t_byte_stream_many_writes 35 9.7614e-05
+t_webget 33 0.0120376
+t_address_dt 35 0.000113598
+t_parser_dt 35 2.86155e-05
+t_socket_dt 35 5.7847e-05
+t_wrapping_ints_cmp 27 5.26423e-05
+t_wrapping_ints_unwrap 24 3.9531e-05
+t_wrapping_ints_wrap 24 3.3824e-05
+t_recv_connect 20 5.67792e-05
+t_recv_transmit 13 0.0024834
+t_recv_window 13 0.000152725
+t_recv_reorder 19 0.000103044
+t_recv_close 19 6.74623e-05
+t_send_connect 2 0.000727221
+t_send_transmit 2 0.0118308
 t_send_retx 0 0
-t_send_window 0 0
-t_send_ack 0 0
+t_send_window 2 0.00996476
+t_send_ack 2 0.0011346
 t_send_close 0 0
 ---
-t_send_connect
-t_send_transmit
 t_send_retx
-t_send_window
-t_send_ack
 t_send_close
