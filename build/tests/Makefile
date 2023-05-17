@@ -155,6 +155,104 @@ tcp_parser/fast:
 .PHONY : tcp_parser/fast
 
 # Convenience name for target.
+tests/CMakeFiles/ipv4_parser.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ipv4_parser.dir/rule
+.PHONY : tests/CMakeFiles/ipv4_parser.dir/rule
+
+# Convenience name for target.
+ipv4_parser: tests/CMakeFiles/ipv4_parser.dir/rule
+.PHONY : ipv4_parser
+
+# fast build rule for target.
+ipv4_parser/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/build
+.PHONY : ipv4_parser/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_active_close.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_active_close.dir/rule
+.PHONY : tests/CMakeFiles/fsm_active_close.dir/rule
+
+# Convenience name for target.
+fsm_active_close: tests/CMakeFiles/fsm_active_close.dir/rule
+.PHONY : fsm_active_close
+
+# fast build rule for target.
+fsm_active_close/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_active_close.dir/build.make tests/CMakeFiles/fsm_active_close.dir/build
+.PHONY : fsm_active_close/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_passive_close.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_passive_close.dir/rule
+.PHONY : tests/CMakeFiles/fsm_passive_close.dir/rule
+
+# Convenience name for target.
+fsm_passive_close: tests/CMakeFiles/fsm_passive_close.dir/rule
+.PHONY : fsm_passive_close
+
+# fast build rule for target.
+fsm_passive_close/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/build
+.PHONY : fsm_passive_close/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_ack_rst.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_ack_rst.dir/rule
+.PHONY : tests/CMakeFiles/fsm_ack_rst.dir/rule
+
+# Convenience name for target.
+fsm_ack_rst: tests/CMakeFiles/fsm_ack_rst.dir/rule
+.PHONY : fsm_ack_rst
+
+# fast build rule for target.
+fsm_ack_rst/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst.dir/build.make tests/CMakeFiles/fsm_ack_rst.dir/build
+.PHONY : fsm_ack_rst/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_ack_rst_relaxed.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_ack_rst_relaxed.dir/rule
+.PHONY : tests/CMakeFiles/fsm_ack_rst_relaxed.dir/rule
+
+# Convenience name for target.
+fsm_ack_rst_relaxed: tests/CMakeFiles/fsm_ack_rst_relaxed.dir/rule
+.PHONY : fsm_ack_rst_relaxed
+
+# fast build rule for target.
+fsm_ack_rst_relaxed/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build
+.PHONY : fsm_ack_rst_relaxed/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_ack_rst_win.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_ack_rst_win.dir/rule
+.PHONY : tests/CMakeFiles/fsm_ack_rst_win.dir/rule
+
+# Convenience name for target.
+fsm_ack_rst_win: tests/CMakeFiles/fsm_ack_rst_win.dir/rule
+.PHONY : fsm_ack_rst_win
+
+# fast build rule for target.
+fsm_ack_rst_win/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win.dir/build.make tests/CMakeFiles/fsm_ack_rst_win.dir/build
+.PHONY : fsm_ack_rst_win/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/rule
+.PHONY : tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/rule
+
+# Convenience name for target.
+fsm_ack_rst_win_relaxed: tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/rule
+.PHONY : fsm_ack_rst_win_relaxed
+
+# fast build rule for target.
+fsm_ack_rst_win_relaxed/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build
+.PHONY : fsm_ack_rst_win_relaxed/fast
+
+# Convenience name for target.
 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/rule
@@ -265,6 +363,160 @@ fsm_stream_reassembler_win: tests/CMakeFiles/fsm_stream_reassembler_win.dir/rule
 fsm_stream_reassembler_win/fast:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/build
 .PHONY : fsm_stream_reassembler_win/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_connect.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_connect.dir/rule
+.PHONY : tests/CMakeFiles/fsm_connect.dir/rule
+
+# Convenience name for target.
+fsm_connect: tests/CMakeFiles/fsm_connect.dir/rule
+.PHONY : fsm_connect
+
+# fast build rule for target.
+fsm_connect/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect.dir/build.make tests/CMakeFiles/fsm_connect.dir/build
+.PHONY : fsm_connect/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_connect_relaxed.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_connect_relaxed.dir/rule
+.PHONY : tests/CMakeFiles/fsm_connect_relaxed.dir/rule
+
+# Convenience name for target.
+fsm_connect_relaxed: tests/CMakeFiles/fsm_connect_relaxed.dir/rule
+.PHONY : fsm_connect_relaxed
+
+# fast build rule for target.
+fsm_connect_relaxed/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/build
+.PHONY : fsm_connect_relaxed/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_listen.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_listen.dir/rule
+.PHONY : tests/CMakeFiles/fsm_listen.dir/rule
+
+# Convenience name for target.
+fsm_listen: tests/CMakeFiles/fsm_listen.dir/rule
+.PHONY : fsm_listen
+
+# fast build rule for target.
+fsm_listen/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen.dir/build.make tests/CMakeFiles/fsm_listen.dir/build
+.PHONY : fsm_listen/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_listen_relaxed.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_listen_relaxed.dir/rule
+.PHONY : tests/CMakeFiles/fsm_listen_relaxed.dir/rule
+
+# Convenience name for target.
+fsm_listen_relaxed: tests/CMakeFiles/fsm_listen_relaxed.dir/rule
+.PHONY : fsm_listen_relaxed
+
+# fast build rule for target.
+fsm_listen_relaxed/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/build
+.PHONY : fsm_listen_relaxed/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_reorder.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_reorder.dir/rule
+.PHONY : tests/CMakeFiles/fsm_reorder.dir/rule
+
+# Convenience name for target.
+fsm_reorder: tests/CMakeFiles/fsm_reorder.dir/rule
+.PHONY : fsm_reorder
+
+# fast build rule for target.
+fsm_reorder/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/build
+.PHONY : fsm_reorder/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_loopback.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_loopback.dir/rule
+.PHONY : tests/CMakeFiles/fsm_loopback.dir/rule
+
+# Convenience name for target.
+fsm_loopback: tests/CMakeFiles/fsm_loopback.dir/rule
+.PHONY : fsm_loopback
+
+# fast build rule for target.
+fsm_loopback/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback.dir/build.make tests/CMakeFiles/fsm_loopback.dir/build
+.PHONY : fsm_loopback/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_loopback_win.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_loopback_win.dir/rule
+.PHONY : tests/CMakeFiles/fsm_loopback_win.dir/rule
+
+# Convenience name for target.
+fsm_loopback_win: tests/CMakeFiles/fsm_loopback_win.dir/rule
+.PHONY : fsm_loopback_win
+
+# fast build rule for target.
+fsm_loopback_win/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback_win.dir/build.make tests/CMakeFiles/fsm_loopback_win.dir/build
+.PHONY : fsm_loopback_win/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_retx.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_retx.dir/rule
+.PHONY : tests/CMakeFiles/fsm_retx.dir/rule
+
+# Convenience name for target.
+fsm_retx: tests/CMakeFiles/fsm_retx.dir/rule
+.PHONY : fsm_retx
+
+# fast build rule for target.
+fsm_retx/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx.dir/build.make tests/CMakeFiles/fsm_retx.dir/build
+.PHONY : fsm_retx/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_retx_relaxed.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_retx_relaxed.dir/rule
+.PHONY : tests/CMakeFiles/fsm_retx_relaxed.dir/rule
+
+# Convenience name for target.
+fsm_retx_relaxed: tests/CMakeFiles/fsm_retx_relaxed.dir/rule
+.PHONY : fsm_retx_relaxed
+
+# fast build rule for target.
+fsm_retx_relaxed/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_relaxed.dir/build.make tests/CMakeFiles/fsm_retx_relaxed.dir/build
+.PHONY : fsm_retx_relaxed/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_retx_win.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_retx_win.dir/rule
+.PHONY : tests/CMakeFiles/fsm_retx_win.dir/rule
+
+# Convenience name for target.
+fsm_retx_win: tests/CMakeFiles/fsm_retx_win.dir/rule
+.PHONY : fsm_retx_win
+
+# fast build rule for target.
+fsm_retx_win/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/build
+.PHONY : fsm_retx_win/fast
+
+# Convenience name for target.
+tests/CMakeFiles/fsm_winsize.dir/rule:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_winsize.dir/rule
+.PHONY : tests/CMakeFiles/fsm_winsize.dir/rule
+
+# Convenience name for target.
+fsm_winsize: tests/CMakeFiles/fsm_winsize.dir/rule
+.PHONY : fsm_winsize
+
+# fast build rule for target.
+fsm_winsize/fast:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/build
+.PHONY : fsm_winsize/fast
 
 # Convenience name for target.
 tests/CMakeFiles/wrapping_integers_cmp.dir/rule:
@@ -676,6 +928,390 @@ byte_stream_two_writes.cc.s:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/byte_stream_two_writes.dir/build.make tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.s
 .PHONY : byte_stream_two_writes.cc.s
 
+fsm_ack_rst.o: fsm_ack_rst.cc.o
+.PHONY : fsm_ack_rst.o
+
+# target to build an object file
+fsm_ack_rst.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst.dir/build.make tests/CMakeFiles/fsm_ack_rst.dir/fsm_ack_rst.cc.o
+.PHONY : fsm_ack_rst.cc.o
+
+fsm_ack_rst.i: fsm_ack_rst.cc.i
+.PHONY : fsm_ack_rst.i
+
+# target to preprocess a source file
+fsm_ack_rst.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst.dir/build.make tests/CMakeFiles/fsm_ack_rst.dir/fsm_ack_rst.cc.i
+.PHONY : fsm_ack_rst.cc.i
+
+fsm_ack_rst.s: fsm_ack_rst.cc.s
+.PHONY : fsm_ack_rst.s
+
+# target to generate assembly for a file
+fsm_ack_rst.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst.dir/build.make tests/CMakeFiles/fsm_ack_rst.dir/fsm_ack_rst.cc.s
+.PHONY : fsm_ack_rst.cc.s
+
+fsm_ack_rst_relaxed.o: fsm_ack_rst_relaxed.cc.o
+.PHONY : fsm_ack_rst_relaxed.o
+
+# target to build an object file
+fsm_ack_rst_relaxed.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/fsm_ack_rst_relaxed.cc.o
+.PHONY : fsm_ack_rst_relaxed.cc.o
+
+fsm_ack_rst_relaxed.i: fsm_ack_rst_relaxed.cc.i
+.PHONY : fsm_ack_rst_relaxed.i
+
+# target to preprocess a source file
+fsm_ack_rst_relaxed.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/fsm_ack_rst_relaxed.cc.i
+.PHONY : fsm_ack_rst_relaxed.cc.i
+
+fsm_ack_rst_relaxed.s: fsm_ack_rst_relaxed.cc.s
+.PHONY : fsm_ack_rst_relaxed.s
+
+# target to generate assembly for a file
+fsm_ack_rst_relaxed.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/fsm_ack_rst_relaxed.cc.s
+.PHONY : fsm_ack_rst_relaxed.cc.s
+
+fsm_ack_rst_win.o: fsm_ack_rst_win.cc.o
+.PHONY : fsm_ack_rst_win.o
+
+# target to build an object file
+fsm_ack_rst_win.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win.dir/build.make tests/CMakeFiles/fsm_ack_rst_win.dir/fsm_ack_rst_win.cc.o
+.PHONY : fsm_ack_rst_win.cc.o
+
+fsm_ack_rst_win.i: fsm_ack_rst_win.cc.i
+.PHONY : fsm_ack_rst_win.i
+
+# target to preprocess a source file
+fsm_ack_rst_win.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win.dir/build.make tests/CMakeFiles/fsm_ack_rst_win.dir/fsm_ack_rst_win.cc.i
+.PHONY : fsm_ack_rst_win.cc.i
+
+fsm_ack_rst_win.s: fsm_ack_rst_win.cc.s
+.PHONY : fsm_ack_rst_win.s
+
+# target to generate assembly for a file
+fsm_ack_rst_win.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win.dir/build.make tests/CMakeFiles/fsm_ack_rst_win.dir/fsm_ack_rst_win.cc.s
+.PHONY : fsm_ack_rst_win.cc.s
+
+fsm_ack_rst_win_relaxed.o: fsm_ack_rst_win_relaxed.cc.o
+.PHONY : fsm_ack_rst_win_relaxed.o
+
+# target to build an object file
+fsm_ack_rst_win_relaxed.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.o
+.PHONY : fsm_ack_rst_win_relaxed.cc.o
+
+fsm_ack_rst_win_relaxed.i: fsm_ack_rst_win_relaxed.cc.i
+.PHONY : fsm_ack_rst_win_relaxed.i
+
+# target to preprocess a source file
+fsm_ack_rst_win_relaxed.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.i
+.PHONY : fsm_ack_rst_win_relaxed.cc.i
+
+fsm_ack_rst_win_relaxed.s: fsm_ack_rst_win_relaxed.cc.s
+.PHONY : fsm_ack_rst_win_relaxed.s
+
+# target to generate assembly for a file
+fsm_ack_rst_win_relaxed.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.s
+.PHONY : fsm_ack_rst_win_relaxed.cc.s
+
+fsm_active_close.o: fsm_active_close.cc.o
+.PHONY : fsm_active_close.o
+
+# target to build an object file
+fsm_active_close.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_active_close.dir/build.make tests/CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.o
+.PHONY : fsm_active_close.cc.o
+
+fsm_active_close.i: fsm_active_close.cc.i
+.PHONY : fsm_active_close.i
+
+# target to preprocess a source file
+fsm_active_close.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_active_close.dir/build.make tests/CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.i
+.PHONY : fsm_active_close.cc.i
+
+fsm_active_close.s: fsm_active_close.cc.s
+.PHONY : fsm_active_close.s
+
+# target to generate assembly for a file
+fsm_active_close.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_active_close.dir/build.make tests/CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.s
+.PHONY : fsm_active_close.cc.s
+
+fsm_connect.o: fsm_connect.cc.o
+.PHONY : fsm_connect.o
+
+# target to build an object file
+fsm_connect.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect.dir/build.make tests/CMakeFiles/fsm_connect.dir/fsm_connect.cc.o
+.PHONY : fsm_connect.cc.o
+
+fsm_connect.i: fsm_connect.cc.i
+.PHONY : fsm_connect.i
+
+# target to preprocess a source file
+fsm_connect.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect.dir/build.make tests/CMakeFiles/fsm_connect.dir/fsm_connect.cc.i
+.PHONY : fsm_connect.cc.i
+
+fsm_connect.s: fsm_connect.cc.s
+.PHONY : fsm_connect.s
+
+# target to generate assembly for a file
+fsm_connect.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect.dir/build.make tests/CMakeFiles/fsm_connect.dir/fsm_connect.cc.s
+.PHONY : fsm_connect.cc.s
+
+fsm_connect_relaxed.o: fsm_connect_relaxed.cc.o
+.PHONY : fsm_connect_relaxed.o
+
+# target to build an object file
+fsm_connect_relaxed.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/fsm_connect_relaxed.cc.o
+.PHONY : fsm_connect_relaxed.cc.o
+
+fsm_connect_relaxed.i: fsm_connect_relaxed.cc.i
+.PHONY : fsm_connect_relaxed.i
+
+# target to preprocess a source file
+fsm_connect_relaxed.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/fsm_connect_relaxed.cc.i
+.PHONY : fsm_connect_relaxed.cc.i
+
+fsm_connect_relaxed.s: fsm_connect_relaxed.cc.s
+.PHONY : fsm_connect_relaxed.s
+
+# target to generate assembly for a file
+fsm_connect_relaxed.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/fsm_connect_relaxed.cc.s
+.PHONY : fsm_connect_relaxed.cc.s
+
+fsm_listen.o: fsm_listen.cc.o
+.PHONY : fsm_listen.o
+
+# target to build an object file
+fsm_listen.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen.dir/build.make tests/CMakeFiles/fsm_listen.dir/fsm_listen.cc.o
+.PHONY : fsm_listen.cc.o
+
+fsm_listen.i: fsm_listen.cc.i
+.PHONY : fsm_listen.i
+
+# target to preprocess a source file
+fsm_listen.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen.dir/build.make tests/CMakeFiles/fsm_listen.dir/fsm_listen.cc.i
+.PHONY : fsm_listen.cc.i
+
+fsm_listen.s: fsm_listen.cc.s
+.PHONY : fsm_listen.s
+
+# target to generate assembly for a file
+fsm_listen.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen.dir/build.make tests/CMakeFiles/fsm_listen.dir/fsm_listen.cc.s
+.PHONY : fsm_listen.cc.s
+
+fsm_listen_relaxed.o: fsm_listen_relaxed.cc.o
+.PHONY : fsm_listen_relaxed.o
+
+# target to build an object file
+fsm_listen_relaxed.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/fsm_listen_relaxed.cc.o
+.PHONY : fsm_listen_relaxed.cc.o
+
+fsm_listen_relaxed.i: fsm_listen_relaxed.cc.i
+.PHONY : fsm_listen_relaxed.i
+
+# target to preprocess a source file
+fsm_listen_relaxed.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/fsm_listen_relaxed.cc.i
+.PHONY : fsm_listen_relaxed.cc.i
+
+fsm_listen_relaxed.s: fsm_listen_relaxed.cc.s
+.PHONY : fsm_listen_relaxed.s
+
+# target to generate assembly for a file
+fsm_listen_relaxed.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/fsm_listen_relaxed.cc.s
+.PHONY : fsm_listen_relaxed.cc.s
+
+fsm_loopback.o: fsm_loopback.cc.o
+.PHONY : fsm_loopback.o
+
+# target to build an object file
+fsm_loopback.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback.dir/build.make tests/CMakeFiles/fsm_loopback.dir/fsm_loopback.cc.o
+.PHONY : fsm_loopback.cc.o
+
+fsm_loopback.i: fsm_loopback.cc.i
+.PHONY : fsm_loopback.i
+
+# target to preprocess a source file
+fsm_loopback.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback.dir/build.make tests/CMakeFiles/fsm_loopback.dir/fsm_loopback.cc.i
+.PHONY : fsm_loopback.cc.i
+
+fsm_loopback.s: fsm_loopback.cc.s
+.PHONY : fsm_loopback.s
+
+# target to generate assembly for a file
+fsm_loopback.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback.dir/build.make tests/CMakeFiles/fsm_loopback.dir/fsm_loopback.cc.s
+.PHONY : fsm_loopback.cc.s
+
+fsm_loopback_win.o: fsm_loopback_win.cc.o
+.PHONY : fsm_loopback_win.o
+
+# target to build an object file
+fsm_loopback_win.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback_win.dir/build.make tests/CMakeFiles/fsm_loopback_win.dir/fsm_loopback_win.cc.o
+.PHONY : fsm_loopback_win.cc.o
+
+fsm_loopback_win.i: fsm_loopback_win.cc.i
+.PHONY : fsm_loopback_win.i
+
+# target to preprocess a source file
+fsm_loopback_win.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback_win.dir/build.make tests/CMakeFiles/fsm_loopback_win.dir/fsm_loopback_win.cc.i
+.PHONY : fsm_loopback_win.cc.i
+
+fsm_loopback_win.s: fsm_loopback_win.cc.s
+.PHONY : fsm_loopback_win.s
+
+# target to generate assembly for a file
+fsm_loopback_win.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_loopback_win.dir/build.make tests/CMakeFiles/fsm_loopback_win.dir/fsm_loopback_win.cc.s
+.PHONY : fsm_loopback_win.cc.s
+
+fsm_passive_close.o: fsm_passive_close.cc.o
+.PHONY : fsm_passive_close.o
+
+# target to build an object file
+fsm_passive_close.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/fsm_passive_close.cc.o
+.PHONY : fsm_passive_close.cc.o
+
+fsm_passive_close.i: fsm_passive_close.cc.i
+.PHONY : fsm_passive_close.i
+
+# target to preprocess a source file
+fsm_passive_close.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/fsm_passive_close.cc.i
+.PHONY : fsm_passive_close.cc.i
+
+fsm_passive_close.s: fsm_passive_close.cc.s
+.PHONY : fsm_passive_close.s
+
+# target to generate assembly for a file
+fsm_passive_close.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/fsm_passive_close.cc.s
+.PHONY : fsm_passive_close.cc.s
+
+fsm_reorder.o: fsm_reorder.cc.o
+.PHONY : fsm_reorder.o
+
+# target to build an object file
+fsm_reorder.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/fsm_reorder.cc.o
+.PHONY : fsm_reorder.cc.o
+
+fsm_reorder.i: fsm_reorder.cc.i
+.PHONY : fsm_reorder.i
+
+# target to preprocess a source file
+fsm_reorder.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/fsm_reorder.cc.i
+.PHONY : fsm_reorder.cc.i
+
+fsm_reorder.s: fsm_reorder.cc.s
+.PHONY : fsm_reorder.s
+
+# target to generate assembly for a file
+fsm_reorder.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/fsm_reorder.cc.s
+.PHONY : fsm_reorder.cc.s
+
+fsm_retx.o: fsm_retx.cc.o
+.PHONY : fsm_retx.o
+
+# target to build an object file
+fsm_retx.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx.dir/build.make tests/CMakeFiles/fsm_retx.dir/fsm_retx.cc.o
+.PHONY : fsm_retx.cc.o
+
+fsm_retx.i: fsm_retx.cc.i
+.PHONY : fsm_retx.i
+
+# target to preprocess a source file
+fsm_retx.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx.dir/build.make tests/CMakeFiles/fsm_retx.dir/fsm_retx.cc.i
+.PHONY : fsm_retx.cc.i
+
+fsm_retx.s: fsm_retx.cc.s
+.PHONY : fsm_retx.s
+
+# target to generate assembly for a file
+fsm_retx.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx.dir/build.make tests/CMakeFiles/fsm_retx.dir/fsm_retx.cc.s
+.PHONY : fsm_retx.cc.s
+
+fsm_retx_relaxed.o: fsm_retx_relaxed.cc.o
+.PHONY : fsm_retx_relaxed.o
+
+# target to build an object file
+fsm_retx_relaxed.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_relaxed.dir/build.make tests/CMakeFiles/fsm_retx_relaxed.dir/fsm_retx_relaxed.cc.o
+.PHONY : fsm_retx_relaxed.cc.o
+
+fsm_retx_relaxed.i: fsm_retx_relaxed.cc.i
+.PHONY : fsm_retx_relaxed.i
+
+# target to preprocess a source file
+fsm_retx_relaxed.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_relaxed.dir/build.make tests/CMakeFiles/fsm_retx_relaxed.dir/fsm_retx_relaxed.cc.i
+.PHONY : fsm_retx_relaxed.cc.i
+
+fsm_retx_relaxed.s: fsm_retx_relaxed.cc.s
+.PHONY : fsm_retx_relaxed.s
+
+# target to generate assembly for a file
+fsm_retx_relaxed.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_relaxed.dir/build.make tests/CMakeFiles/fsm_retx_relaxed.dir/fsm_retx_relaxed.cc.s
+.PHONY : fsm_retx_relaxed.cc.s
+
+fsm_retx_win.o: fsm_retx_win.cc.o
+.PHONY : fsm_retx_win.o
+
+# target to build an object file
+fsm_retx_win.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/fsm_retx_win.cc.o
+.PHONY : fsm_retx_win.cc.o
+
+fsm_retx_win.i: fsm_retx_win.cc.i
+.PHONY : fsm_retx_win.i
+
+# target to preprocess a source file
+fsm_retx_win.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/fsm_retx_win.cc.i
+.PHONY : fsm_retx_win.cc.i
+
+fsm_retx_win.s: fsm_retx_win.cc.s
+.PHONY : fsm_retx_win.s
+
+# target to generate assembly for a file
+fsm_retx_win.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/fsm_retx_win.cc.s
+.PHONY : fsm_retx_win.cc.s
+
 fsm_stream_reassembler_cap.o: fsm_stream_reassembler_cap.cc.o
 .PHONY : fsm_stream_reassembler_cap.o
 
@@ -867,6 +1503,54 @@ fsm_stream_reassembler_win.s: fsm_stream_reassembler_win.cc.s
 fsm_stream_reassembler_win.cc.s:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/fsm_stream_reassembler_win.cc.s
 .PHONY : fsm_stream_reassembler_win.cc.s
+
+fsm_winsize.o: fsm_winsize.cc.o
+.PHONY : fsm_winsize.o
+
+# target to build an object file
+fsm_winsize.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/fsm_winsize.cc.o
+.PHONY : fsm_winsize.cc.o
+
+fsm_winsize.i: fsm_winsize.cc.i
+.PHONY : fsm_winsize.i
+
+# target to preprocess a source file
+fsm_winsize.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/fsm_winsize.cc.i
+.PHONY : fsm_winsize.cc.i
+
+fsm_winsize.s: fsm_winsize.cc.s
+.PHONY : fsm_winsize.s
+
+# target to generate assembly for a file
+fsm_winsize.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/fsm_winsize.cc.s
+.PHONY : fsm_winsize.cc.s
+
+ipv4_parser.o: ipv4_parser.cc.o
+.PHONY : ipv4_parser.o
+
+# target to build an object file
+ipv4_parser.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/ipv4_parser.cc.o
+.PHONY : ipv4_parser.cc.o
+
+ipv4_parser.i: ipv4_parser.cc.i
+.PHONY : ipv4_parser.i
+
+# target to preprocess a source file
+ipv4_parser.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/ipv4_parser.cc.i
+.PHONY : ipv4_parser.cc.i
+
+ipv4_parser.s: ipv4_parser.cc.s
+.PHONY : ipv4_parser.s
+
+# target to generate assembly for a file
+ipv4_parser.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/ipv4_parser.cc.s
+.PHONY : ipv4_parser.cc.s
 
 recv_close.o: recv_close.cc.o
 .PHONY : recv_close.o
@@ -1060,6 +1744,30 @@ send_connect.cc.s:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/send_connect.cc.s
 .PHONY : send_connect.cc.s
 
+send_equivalence_checker.o: send_equivalence_checker.cc.o
+.PHONY : send_equivalence_checker.o
+
+# target to build an object file
+send_equivalence_checker.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o
+.PHONY : send_equivalence_checker.cc.o
+
+send_equivalence_checker.i: send_equivalence_checker.cc.i
+.PHONY : send_equivalence_checker.i
+
+# target to preprocess a source file
+send_equivalence_checker.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i
+.PHONY : send_equivalence_checker.cc.i
+
+send_equivalence_checker.s: send_equivalence_checker.cc.s
+.PHONY : send_equivalence_checker.s
+
+# target to generate assembly for a file
+send_equivalence_checker.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s
+.PHONY : send_equivalence_checker.cc.s
+
 send_retx.o: send_retx.cc.o
 .PHONY : send_retx.o
 
@@ -1131,6 +1839,30 @@ send_window.s: send_window.cc.s
 send_window.cc.s:
 	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/send_window.cc.s
 .PHONY : send_window.cc.s
+
+tcp_fsm_test_harness.o: tcp_fsm_test_harness.cc.o
+.PHONY : tcp_fsm_test_harness.o
+
+# target to build an object file
+tcp_fsm_test_harness.cc.o:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o
+.PHONY : tcp_fsm_test_harness.cc.o
+
+tcp_fsm_test_harness.i: tcp_fsm_test_harness.cc.i
+.PHONY : tcp_fsm_test_harness.i
+
+# target to preprocess a source file
+tcp_fsm_test_harness.cc.i:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i
+.PHONY : tcp_fsm_test_harness.cc.i
+
+tcp_fsm_test_harness.s: tcp_fsm_test_harness.cc.s
+.PHONY : tcp_fsm_test_harness.s
+
+# target to generate assembly for a file
+tcp_fsm_test_harness.cc.s:
+	cd /home/zyy/CS144lab/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s
+.PHONY : tcp_fsm_test_harness.cc.s
 
 tcp_parser.o: tcp_parser.cc.o
 .PHONY : tcp_parser.o
@@ -1242,6 +1974,22 @@ help:
 	@echo "... byte_stream_many_writes"
 	@echo "... byte_stream_one_write"
 	@echo "... byte_stream_two_writes"
+	@echo "... fsm_ack_rst"
+	@echo "... fsm_ack_rst_relaxed"
+	@echo "... fsm_ack_rst_win"
+	@echo "... fsm_ack_rst_win_relaxed"
+	@echo "... fsm_active_close"
+	@echo "... fsm_connect"
+	@echo "... fsm_connect_relaxed"
+	@echo "... fsm_listen"
+	@echo "... fsm_listen_relaxed"
+	@echo "... fsm_loopback"
+	@echo "... fsm_loopback_win"
+	@echo "... fsm_passive_close"
+	@echo "... fsm_reorder"
+	@echo "... fsm_retx"
+	@echo "... fsm_retx_relaxed"
+	@echo "... fsm_retx_win"
 	@echo "... fsm_stream_reassembler_cap"
 	@echo "... fsm_stream_reassembler_dup"
 	@echo "... fsm_stream_reassembler_holes"
@@ -1250,6 +1998,8 @@ help:
 	@echo "... fsm_stream_reassembler_seq"
 	@echo "... fsm_stream_reassembler_single"
 	@echo "... fsm_stream_reassembler_win"
+	@echo "... fsm_winsize"
+	@echo "... ipv4_parser"
 	@echo "... recv_close"
 	@echo "... recv_connect"
 	@echo "... recv_reorder"
@@ -1284,6 +2034,54 @@ help:
 	@echo "... byte_stream_two_writes.o"
 	@echo "... byte_stream_two_writes.i"
 	@echo "... byte_stream_two_writes.s"
+	@echo "... fsm_ack_rst.o"
+	@echo "... fsm_ack_rst.i"
+	@echo "... fsm_ack_rst.s"
+	@echo "... fsm_ack_rst_relaxed.o"
+	@echo "... fsm_ack_rst_relaxed.i"
+	@echo "... fsm_ack_rst_relaxed.s"
+	@echo "... fsm_ack_rst_win.o"
+	@echo "... fsm_ack_rst_win.i"
+	@echo "... fsm_ack_rst_win.s"
+	@echo "... fsm_ack_rst_win_relaxed.o"
+	@echo "... fsm_ack_rst_win_relaxed.i"
+	@echo "... fsm_ack_rst_win_relaxed.s"
+	@echo "... fsm_active_close.o"
+	@echo "... fsm_active_close.i"
+	@echo "... fsm_active_close.s"
+	@echo "... fsm_connect.o"
+	@echo "... fsm_connect.i"
+	@echo "... fsm_connect.s"
+	@echo "... fsm_connect_relaxed.o"
+	@echo "... fsm_connect_relaxed.i"
+	@echo "... fsm_connect_relaxed.s"
+	@echo "... fsm_listen.o"
+	@echo "... fsm_listen.i"
+	@echo "... fsm_listen.s"
+	@echo "... fsm_listen_relaxed.o"
+	@echo "... fsm_listen_relaxed.i"
+	@echo "... fsm_listen_relaxed.s"
+	@echo "... fsm_loopback.o"
+	@echo "... fsm_loopback.i"
+	@echo "... fsm_loopback.s"
+	@echo "... fsm_loopback_win.o"
+	@echo "... fsm_loopback_win.i"
+	@echo "... fsm_loopback_win.s"
+	@echo "... fsm_passive_close.o"
+	@echo "... fsm_passive_close.i"
+	@echo "... fsm_passive_close.s"
+	@echo "... fsm_reorder.o"
+	@echo "... fsm_reorder.i"
+	@echo "... fsm_reorder.s"
+	@echo "... fsm_retx.o"
+	@echo "... fsm_retx.i"
+	@echo "... fsm_retx.s"
+	@echo "... fsm_retx_relaxed.o"
+	@echo "... fsm_retx_relaxed.i"
+	@echo "... fsm_retx_relaxed.s"
+	@echo "... fsm_retx_win.o"
+	@echo "... fsm_retx_win.i"
+	@echo "... fsm_retx_win.s"
 	@echo "... fsm_stream_reassembler_cap.o"
 	@echo "... fsm_stream_reassembler_cap.i"
 	@echo "... fsm_stream_reassembler_cap.s"
@@ -1308,6 +2106,12 @@ help:
 	@echo "... fsm_stream_reassembler_win.o"
 	@echo "... fsm_stream_reassembler_win.i"
 	@echo "... fsm_stream_reassembler_win.s"
+	@echo "... fsm_winsize.o"
+	@echo "... fsm_winsize.i"
+	@echo "... fsm_winsize.s"
+	@echo "... ipv4_parser.o"
+	@echo "... ipv4_parser.i"
+	@echo "... ipv4_parser.s"
 	@echo "... recv_close.o"
 	@echo "... recv_close.i"
 	@echo "... recv_close.s"
@@ -1332,6 +2136,9 @@ help:
 	@echo "... send_connect.o"
 	@echo "... send_connect.i"
 	@echo "... send_connect.s"
+	@echo "... send_equivalence_checker.o"
+	@echo "... send_equivalence_checker.i"
+	@echo "... send_equivalence_checker.s"
 	@echo "... send_retx.o"
 	@echo "... send_retx.i"
 	@echo "... send_retx.s"
@@ -1341,6 +2148,9 @@ help:
 	@echo "... send_window.o"
 	@echo "... send_window.i"
 	@echo "... send_window.s"
+	@echo "... tcp_fsm_test_harness.o"
+	@echo "... tcp_fsm_test_harness.i"
+	@echo "... tcp_fsm_test_harness.s"
 	@echo "... tcp_parser.o"
 	@echo "... tcp_parser.i"
 	@echo "... tcp_parser.s"
