@@ -21,8 +21,8 @@ class TCPSender {
     WrappingInt32 _isn;
     //
     size_t  _bytes_in_flight = 0;
-    size_t recvackno = 0;
-    size_t  _window_size = 0;
+    uint64_t recvackno = 0;
+    size_t  _window_size = 1;
 
     bool send_syn = false;
     bool send_fin = false;
@@ -34,9 +34,9 @@ class TCPSender {
     size_t _time = 0;
     bool retransmission_start = false;
     size_t _consecutive_retransmission = 0;
-    size_t retransmission_timeout = 0;
     //! retransmission timer for the connection
     unsigned int _initial_retransmission_timeout;
+    unsigned int retransmission_timeout;
     //! outgoing stream of bytes that have not yet been sent
     ByteStream _stream;
 

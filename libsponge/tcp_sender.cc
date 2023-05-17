@@ -20,7 +20,9 @@ using namespace std;
 TCPSender::TCPSender(const size_t capacity, const uint16_t retx_timeout, const std::optional<WrappingInt32> fixed_isn)
     : _isn(fixed_isn.value_or(WrappingInt32{random_device()()}))
     , _initial_retransmission_timeout{retx_timeout}
-    , _stream(capacity) {}
+    , retransmission_timeout(retx_timeout)
+    , _stream(capacity){}
+
 
 uint64_t TCPSender::bytes_in_flight() const {
     return _bytes_in_flight;
@@ -49,7 +51,7 @@ void TCPSender::fill_window() {
         return;
     }
     // if window_size == 0 act_window = 1 window_size
-    size_t act_window = _window_size == 0 ? 1 : _window_size;
+    size_t act_window = _window_size ;
     //window remain space
     size_t _remain = act_window - (_next_seqno - recvackno);
     //window is not full
@@ -88,11 +90,11 @@ void TCPSender::fill_window() {
 //! \param window_size The remote receiver's advertised window size
 //! \returns `false` if the ackno appears invalid (acknowledges something the TCPSender hasn't sent yet)
 bool TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) {
-    size_t left = unwrap(ackno,_isn, recvackno);
+    uint64_t left = unwrap(ackno,_isn, recvackno);
     if(left > _next_seqno){
         return false;
     }
-    _window_size = window_size;
+    _window_size = window_size == 0? 1:window_size;
 
     if(left <= recvackno){
         return true;
@@ -113,11 +115,13 @@ bool TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_si
 
     retransmission_timeout = _initial_retransmission_timeout;
     _consecutive_retransmission = 0;
+    _time = 0;
 
     if(!_segments_outstanding.empty()){
         retransmission_start = true;
         _time = 0;
-    }
+    }else
+        retransmission_start = false;
 
     return true;
 }
@@ -128,8 +132,7 @@ void TCPSender::tick(const size_t ms_since_last_tick) {
     _time += ms_since_last_tick;
     if(_time >= retransmission_timeout && !_segments_outstanding.empty()){
         _segments_out.push(_segments_outstanding.front());
-        if(_window_size != 0)
-            retransmission_timeout *= 2;
+        retransmission_timeout *= 2;
         _consecutive_retransmission++;
         retransmission_start = true;
         _time = 0;
