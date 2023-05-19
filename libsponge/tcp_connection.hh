@@ -15,6 +15,11 @@ class TCPConnection {
 
     //! outbound queue of segments that the TCPConnection wants sent
     std::queue<TCPSegment> _segments_out{};
+    size_t  _time_since_last_segment_received = 0;
+    bool _syn_sent = false;
+    bool _syn_fin = false;
+    bool _syn_recv = false;
+    bool _active = true;
 
     //! Should the TCPConnection stay active (and keep ACKing)
     //! for 10 * _cfg.rt_timeout milliseconds after both streams have ended,
@@ -73,11 +78,13 @@ class TCPConnection {
     //! put each one into the payload of a lower-layer datagram (usually Internet datagrams (IP),
     //! but could also be user datagrams (UDP) or any other kind).
     std::queue<TCPSegment> &segments_out() { return _segments_out; }
-
+    void push_out();
     //! \brief Is the connection still alive in any way?
     //! \returns `true` if either stream is still running or if the TCPConnection is lingering
     //! after both streams have finished (e.g. to ACK retransmissions from the peer)
     bool active() const;
+    void connect_shutdown();
+    bool connect_close();
     //!@}
 
     //! Construct a new connection from a configuration
@@ -85,7 +92,9 @@ class TCPConnection {
 
     //! \name construction and destruction
     //! moving is allowed; copying is disallowed; default construction not possible
-
+    bool syn_sent();
+    bool syn_recv();
+    bool _listen();
     //!@{
     ~TCPConnection();  //!< destructor sends a RST if the connection is still open
     TCPConnection() = delete;
