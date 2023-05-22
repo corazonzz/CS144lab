@@ -1,17 +1,17 @@
-Start testing: May 16 22:33 PDT
+Start testing: May 19 02:14 PDT
 ----------------------------------------------------------
 1/164 Testing: t_wrapping_ints_cmp
 1/164 Test: t_wrapping_ints_cmp
 Command: "/home/zyy/CS144lab/build/tests/wrapping_integers_cmp"
 Directory: /home/zyy/CS144lab/build
-"t_wrapping_ints_cmp" start time: May 16 22:33 PDT
+"t_wrapping_ints_cmp" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_cmp" end time: May 16 22:33 PDT
+"t_wrapping_ints_cmp" end time: May 19 02:14 PDT
 "t_wrapping_ints_cmp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 2/164 Test: t_wrapping_ints_unwrap
 Command: "/home/zyy/CS144lab/build/tests/wrapping_integers_unwrap"
 Directory: /home/zyy/CS144lab/build
-"t_wrapping_ints_unwrap" start time: May 16 22:33 PDT
+"t_wrapping_ints_unwrap" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_unwrap" end time: May 16 22:33 PDT
+"t_wrapping_ints_unwrap" end time: May 19 02:14 PDT
 "t_wrapping_ints_unwrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 3/164 Test: t_wrapping_ints_wrap
 Command: "/home/zyy/CS144lab/build/tests/wrapping_integers_wrap"
 Directory: /home/zyy/CS144lab/build
-"t_wrapping_ints_wrap" start time: May 16 22:33 PDT
+"t_wrapping_ints_wrap" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_wrap" end time: May 16 22:33 PDT
+"t_wrapping_ints_wrap" end time: May 19 02:14 PDT
 "t_wrapping_ints_wrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 4/164 Test: t_recv_connect
 Command: "/home/zyy/CS144lab/build/tests/recv_connect"
 Directory: /home/zyy/CS144lab/build
-"t_recv_connect" start time: May 16 22:33 PDT
+"t_recv_connect" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_connect" end time: May 16 22:33 PDT
+"t_recv_connect" end time: May 19 02:14 PDT
 "t_recv_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 5/164 Test: t_recv_transmit
 Command: "/home/zyy/CS144lab/build/tests/recv_transmit"
 Directory: /home/zyy/CS144lab/build
-"t_recv_transmit" start time: May 16 22:33 PDT
+"t_recv_transmit" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_transmit" end time: May 16 22:33 PDT
+"t_recv_transmit" end time: May 19 02:14 PDT
 "t_recv_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +79,14 @@ Test Passed.
 6/164 Test: t_recv_window
 Command: "/home/zyy/CS144lab/build/tests/recv_window"
 Directory: /home/zyy/CS144lab/build
-"t_recv_window" start time: May 16 22:33 PDT
+"t_recv_window" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_window" end time: May 16 22:33 PDT
+"t_recv_window" end time: May 19 02:14 PDT
 "t_recv_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +94,14 @@ Test Passed.
 7/164 Test: t_recv_reorder
 Command: "/home/zyy/CS144lab/build/tests/recv_reorder"
 Directory: /home/zyy/CS144lab/build
-"t_recv_reorder" start time: May 16 22:33 PDT
+"t_recv_reorder" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_reorder" end time: May 16 22:33 PDT
+"t_recv_reorder" end time: May 19 02:14 PDT
 "t_recv_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +109,14 @@ Test Passed.
 8/164 Test: t_recv_close
 Command: "/home/zyy/CS144lab/build/tests/recv_close"
 Directory: /home/zyy/CS144lab/build
-"t_recv_close" start time: May 16 22:33 PDT
+"t_recv_close" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_close" end time: May 16 22:33 PDT
+"t_recv_close" end time: May 19 02:14 PDT
 "t_recv_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +124,14 @@ Test Passed.
 9/164 Test: t_send_connect
 Command: "/home/zyy/CS144lab/build/tests/send_connect"
 Directory: /home/zyy/CS144lab/build
-"t_send_connect" start time: May 16 22:33 PDT
+"t_send_connect" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_connect" end time: May 16 22:33 PDT
+"t_send_connect" end time: May 19 02:14 PDT
 "t_send_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,14 +139,14 @@ Test Passed.
 10/164 Test: t_send_transmit
 Command: "/home/zyy/CS144lab/build/tests/send_transmit"
 Directory: /home/zyy/CS144lab/build
-"t_send_transmit" start time: May 16 22:33 PDT
+"t_send_transmit" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_transmit" end time: May 16 22:33 PDT
+"t_send_transmit" end time: May 19 02:14 PDT
 "t_send_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -154,14 +154,14 @@ Test Passed.
 11/164 Test: t_send_retx
 Command: "/home/zyy/CS144lab/build/tests/send_retx"
 Directory: /home/zyy/CS144lab/build
-"t_send_retx" start time: May 16 22:33 PDT
+"t_send_retx" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_retx" end time: May 16 22:33 PDT
+"t_send_retx" end time: May 19 02:14 PDT
 "t_send_retx" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +169,14 @@ Test Passed.
 12/164 Test: t_send_window
 Command: "/home/zyy/CS144lab/build/tests/send_window"
 Directory: /home/zyy/CS144lab/build
-"t_send_window" start time: May 16 22:33 PDT
+"t_send_window" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_window" end time: May 16 22:33 PDT
+"t_send_window" end time: May 19 02:14 PDT
 "t_send_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +184,14 @@ Test Passed.
 13/164 Test: t_send_ack
 Command: "/home/zyy/CS144lab/build/tests/send_ack"
 Directory: /home/zyy/CS144lab/build
-"t_send_ack" start time: May 16 22:33 PDT
+"t_send_ack" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_ack" end time: May 16 22:33 PDT
+"t_send_ack" end time: May 19 02:14 PDT
 "t_send_ack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +199,14 @@ Test Passed.
 14/164 Test: t_send_close
 Command: "/home/zyy/CS144lab/build/tests/send_close"
 Directory: /home/zyy/CS144lab/build
-"t_send_close" start time: May 16 22:33 PDT
+"t_send_close" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_close" end time: May 16 22:33 PDT
+"t_send_close" end time: May 19 02:14 PDT
 "t_send_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +214,14 @@ Test Passed.
 15/164 Test: t_strm_reassem_cap
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_cap"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_cap" start time: May 16 22:33 PDT
+"t_strm_reassem_cap" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: May 16 22:33 PDT
+"t_strm_reassem_cap" end time: May 19 02:14 PDT
 "t_strm_reassem_cap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,14 +229,14 @@ Test Passed.
 16/164 Test: t_strm_reassem_single
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_single"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_single" start time: May 16 22:33 PDT
+"t_strm_reassem_single" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: May 16 22:33 PDT
+"t_strm_reassem_single" end time: May 19 02:14 PDT
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -244,14 +244,14 @@ Test Passed.
 17/164 Test: t_strm_reassem_seq
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_seq"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_seq" start time: May 16 22:33 PDT
+"t_strm_reassem_seq" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: May 16 22:33 PDT
+"t_strm_reassem_seq" end time: May 19 02:14 PDT
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -259,14 +259,14 @@ Test Passed.
 18/164 Test: t_strm_reassem_dup
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_dup"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_dup" start time: May 16 22:33 PDT
+"t_strm_reassem_dup" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: May 16 22:33 PDT
+"t_strm_reassem_dup" end time: May 19 02:14 PDT
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,14 +274,14 @@ Test Passed.
 19/164 Test: t_strm_reassem_holes
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_holes"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_holes" start time: May 16 22:33 PDT
+"t_strm_reassem_holes" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: May 16 22:33 PDT
+"t_strm_reassem_holes" end time: May 19 02:14 PDT
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -289,14 +289,14 @@ Test Passed.
 20/164 Test: t_strm_reassem_many
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_many"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_many" start time: May 16 22:33 PDT
+"t_strm_reassem_many" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.06 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: May 16 22:33 PDT
+"t_strm_reassem_many" end time: May 19 02:14 PDT
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -304,14 +304,14 @@ Test Passed.
 21/164 Test: t_strm_reassem_overlapping
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_overlapping"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_overlapping" start time: May 16 22:33 PDT
+"t_strm_reassem_overlapping" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: May 16 22:33 PDT
+"t_strm_reassem_overlapping" end time: May 19 02:14 PDT
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -319,14 +319,14 @@ Test Passed.
 22/164 Test: t_strm_reassem_win
 Command: "/home/zyy/CS144lab/build/tests/fsm_stream_reassembler_win"
 Directory: /home/zyy/CS144lab/build
-"t_strm_reassem_win" start time: May 16 22:33 PDT
+"t_strm_reassem_win" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.06 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: May 16 22:33 PDT
+"t_strm_reassem_win" end time: May 19 02:14 PDT
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -334,14 +334,14 @@ Test Passed.
 23/164 Test: t_byte_stream_construction
 Command: "/home/zyy/CS144lab/build/tests/byte_stream_construction"
 Directory: /home/zyy/CS144lab/build
-"t_byte_stream_construction" start time: May 16 22:33 PDT
+"t_byte_stream_construction" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: May 16 22:33 PDT
+"t_byte_stream_construction" end time: May 19 02:14 PDT
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -349,14 +349,14 @@ Test Passed.
 24/164 Test: t_byte_stream_one_write
 Command: "/home/zyy/CS144lab/build/tests/byte_stream_one_write"
 Directory: /home/zyy/CS144lab/build
-"t_byte_stream_one_write" start time: May 16 22:33 PDT
+"t_byte_stream_one_write" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: May 16 22:33 PDT
+"t_byte_stream_one_write" end time: May 19 02:14 PDT
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -364,14 +364,14 @@ Test Passed.
 25/164 Test: t_byte_stream_two_writes
 Command: "/home/zyy/CS144lab/build/tests/byte_stream_two_writes"
 Directory: /home/zyy/CS144lab/build
-"t_byte_stream_two_writes" start time: May 16 22:33 PDT
+"t_byte_stream_two_writes" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: May 16 22:33 PDT
+"t_byte_stream_two_writes" end time: May 19 02:14 PDT
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -379,14 +379,14 @@ Test Passed.
 26/164 Test: t_byte_stream_capacity
 Command: "/home/zyy/CS144lab/build/tests/byte_stream_capacity"
 Directory: /home/zyy/CS144lab/build
-"t_byte_stream_capacity" start time: May 16 22:33 PDT
+"t_byte_stream_capacity" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: May 16 22:33 PDT
+"t_byte_stream_capacity" end time: May 19 02:14 PDT
 "t_byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -394,14 +394,14 @@ Test Passed.
 27/164 Test: t_byte_stream_many_writes
 Command: "/home/zyy/CS144lab/build/tests/byte_stream_many_writes"
 Directory: /home/zyy/CS144lab/build
-"t_byte_stream_many_writes" start time: May 16 22:33 PDT
+"t_byte_stream_many_writes" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: May 16 22:33 PDT
+"t_byte_stream_many_writes" end time: May 19 02:14 PDT
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,54 +409,541 @@ Test Passed.
 28/164 Test: t_webget
 Command: "/home/zyy/CS144lab/tests/webget_t.sh"
 Directory: /home/zyy/CS144lab/build
-"t_webget" start time: May 16 22:33 PDT
+"t_webget" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
-Function called: get_URL(HTTP/1.1 200 OK
-Date: Wed, 17 May 2023 05:32:33 GMT
+Function called: get_URL(cs144.keithw.org, /hasher/xyzzy).
+Warning: get_URL() has not been implemented yet.
+HTTP/1.1 200 OK
+Date: Fri, 19 May 2023 09:12:41 GMT
 Server: Apache
 Content-Length: 44
 Connection: close
 Content-Type: text/plain
 
 QWx0NhMPkoM/bJr/ohvHXlviFhOyYrYb+qqdOnwLYo4
-cs144.keithw.org, /hasher/xyzzy).
-Warning: get_URL() has not been implemented yet.
 <end of output>
-Test time =   0.47 sec
+Test time =   0.79 sec
 ----------------------------------------------------------
 Test Passed.
-"t_webget" end time: May 16 22:33 PDT
+"t_webget" end time: May 19 02:14 PDT
 "t_webget" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/164 Testing: t_tcp_parser
+29/164 Test: t_tcp_parser
+Command: "/home/zyy/CS144lab/build/tests/tcp_parser" "/home/zyy/CS144lab/tests/ipv4_parser.data"
+Directory: /home/zyy/CS144lab/build
+"t_tcp_parser" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_tcp_parser" end time: May 19 02:14 PDT
+"t_tcp_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/164 Testing: t_ipv4_parser
+30/164 Test: t_ipv4_parser
+Command: "/home/zyy/CS144lab/build/tests/ipv4_parser" "/home/zyy/CS144lab/tests/ipv4_parser.data"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_parser" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_parser" end time: May 19 02:14 PDT
+"t_ipv4_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/164 Testing: t_active_close
+31/164 Test: t_active_close
+Command: "/home/zyy/CS144lab/build/tests/fsm_active_close"
+Directory: /home/zyy/CS144lab/build
+"t_active_close" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_active_close" end time: May 19 02:14 PDT
+"t_active_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/164 Testing: t_passive_close
+32/164 Test: t_passive_close
+Command: "/home/zyy/CS144lab/build/tests/fsm_passive_close"
+Directory: /home/zyy/CS144lab/build
+"t_passive_close" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_passive_close" end time: May 19 02:14 PDT
+"t_passive_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/164 Testing: t_ack_rst
+34/164 Test: t_ack_rst
+Command: "/home/zyy/CS144lab/build/tests/fsm_ack_rst_relaxed"
+Directory: /home/zyy/CS144lab/build
+"t_ack_rst" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Test 1
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (A=1,ackno=2147483648,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=2147483647,payload_size=0,)
+	Action:      packet arrives: Header(flags=SA,seqno=2147483647,ack=2147483648,win=137) with no payload
+	Expectation: exactly one segment sent with (A=1,R=0,S=0,F=0,ackno=2147483648,payload_size=0,)
+	Action:      packet arrives: Header(flags=A,seqno=2147483648,ack=2147483648,win=137) with no payload
+	Expectation: no (more) segments sent
+	Action:      packet arrives: Header(flags=A,seqno=2147483648,ack=2147483647,win=137) with no payload
+	Expectation: no (more) segments sent
+	Action:      packet arrives: Header(flags=A,seqno=2147483648,ack=2147483649,win=137) with no payload
+
+Note:
+	test 1 failed: bad ACK
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_ack_rst" end time: May 19 02:14 PDT
+"t_ack_rst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/164 Testing: t_ack_rst_win
+36/164 Test: t_ack_rst_win
+Command: "/home/zyy/CS144lab/build/tests/fsm_ack_rst_win_relaxed"
+Directory: /home/zyy/CS144lab/build
+"t_ack_rst_win" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: exactly one segment sent with (ackno=2147483648,)
+
+Failure message:
+	The TCP should have produced a segment that existed, but it did not
+
+List of steps that executed successfully:
+	Action:      connect
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=2147483647,payload_size=0,)
+	Action:      packet arrives: Header(flags=SA,seqno=2147483647,ack=2147483648,win=137) with no payload
+	Expectation: exactly one segment sent with (A=1,R=0,S=0,F=0,ackno=2147483648,payload_size=0,)
+	Action:      packet arrives: Header(flags=A,seqno=2147483648,ack=2147483648,win=137) with no payload
+	Expectation: no (more) segments sent
+	Action:      packet arrives: Header(flags=A,seqno=2147483648,ack=2147483647,win=137) with no payload
+	Expectation: no (more) segments sent
+	Action:      packet arrives: Header(flags=A,seqno=2147483648,ack=2147483649,win=137) with no payload
+
+Note:
+	test 1 failed: bad ACK after future ACK
+
+Warning: Unclean shutdown of TCPConnection
+The TCP should have produced a segment that existed, but it did not
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_ack_rst_win" end time: May 19 02:14 PDT
+"t_ack_rst_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/164 Testing: t_connect
+38/164 Test: t_connect
+Command: "/home/zyy/CS144lab/build/tests/fsm_connect_relaxed"
+Directory: /home/zyy/CS144lab/build
+"t_connect" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_connect" end time: May 19 02:14 PDT
+"t_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/164 Testing: t_listen
+40/164 Test: t_listen
+Command: "/home/zyy/CS144lab/build/tests/fsm_listen_relaxed"
+Directory: /home/zyy/CS144lab/build
+"t_listen" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: TCP in state sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for stream to begin (listening for SYN)`, active=1, linger_after_streams_finish=1
+
+Failure message:
+	The TCP was in state `sender=`stream started but nothing acknowledged`, receiver=`waiting for stream to begin (listening for SYN)`, active=1, linger_after_streams_finish=1`, but it was expected to be in state `sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for stream to begin (listening for SYN)`, active=1, linger_after_streams_finish=1`
+
+List of steps that executed successfully:
+	Action:      listen
+	Expectation: TCP in state sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for stream to begin (listening for SYN)`, active=1, linger_after_streams_finish=1
+	Action:      1ms pass
+
+Warning: Unclean shutdown of TCPConnection
+The TCP was in state `sender=`stream started but nothing acknowledged`, receiver=`waiting for stream to begin (listening for SYN)`, active=1, linger_after_streams_finish=1`, but it was expected to be in state `sender=`waiting for stream to begin (no SYN sent)`, receiver=`waiting for stream to begin (listening for SYN)`, active=1, linger_after_streams_finish=1`
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_listen" end time: May 19 02:14 PDT
+"t_listen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/164 Testing: t_winsize
+41/164 Test: t_winsize
+Command: "/home/zyy/CS144lab/build/tests/fsm_winsize"
+Directory: /home/zyy/CS144lab/build
+"t_winsize" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	exactly one segment sent with (A=1,ackno=2769848868,win=16741,)
+Failure message:
+	The TCP produced a segment with `win = 0`, but win was expected to be `16741`
+Note:
+	test 1 failed: SYN/ACK invalid
+
+Warning: Unclean shutdown of TCPConnection
+The TCP produced a segment with `win = 0`, but win was expected to be `16741`
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_winsize" end time: May 19 02:14 PDT
+"t_winsize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/164 Testing: t_retx
+43/164 Test: t_retx
+Command: "/home/zyy/CS144lab/build/tests/fsm_retx_relaxed"
+Directory: /home/zyy/CS144lab/build
+"t_retx" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_retx" end time: May 19 02:14 PDT
+"t_retx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/164 Testing: t_retx_win
+44/164 Test: t_retx_win
+Command: "/home/zyy/CS144lab/build/tests/fsm_retx_win"
+Directory: /home/zyy/CS144lab/build
+"t_retx_win" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_retx_win" end time: May 19 02:14 PDT
+"t_retx_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/164 Testing: t_loopback
+45/164 Test: t_loopback
+Command: "/home/zyy/CS144lab/build/tests/fsm_loopback"
+Directory: /home/zyy/CS144lab/build
+"t_loopback" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Test Failure on expectation:
+	Expectation: TCP has 6950 bytes in flight
+
+Failure message:
+	The TCP has `bytes_in_flight = 1`, but bytes_in_flight was expected to be `6950`
+
+List of steps that executed successfully:
+	Action:      connect
+	Expectation: exactly one segment sent with (A=0,R=0,S=1,F=0,seqno=2598769176,payload_size=0,)
+	Action:      packet arrives: Header(flags=SA,seqno=2598769176,ack=2598769177,win=137) with no payload
+	Expectation: exactly one segment sent with (A=1,R=0,S=0,F=0,ackno=2598769177,payload_size=0,)
+	Action:      packet arrives: Header(flags=A,seqno=2598769177,ack=2598769177,win=65000) with no payload
+	Action:      write (1534 bytes) [66, 21, ba, 98, 50, be, 4c, f9, f7, 90, 31, c9, 9c, 33, 85, ee, ...]
+	Action:      1ms pass
+	Expectation: TCP has 1534 bytes in flight
+	Expectation: segment sent
+	Action:      packet arrives: Header(flags=A,seqno=2598769177,ack=2598769177,win=0) with 1452 data bytes "f!<186><152>P<190>L<249><247><144>1<201><156>3<133><238>..."
+	Action:      1ms pass
+	Action:      packet arrives: Header(flags=A,seqno=2598770629,ack=2598769177,win=0) with 82 data bytes "x_<161>r<192><203>|:U<214><10><16><244><196>Z+..."
+	Action:      1ms pass
+	Action:      packet arrives: Header(flags=A,seqno=2598770711,ack=2598770629,win=0) with no payload
+	Action:      1ms pass
+	Action:      packet arrives: Header(flags=A,seqno=2598770711,ack=2598770711,win=0) with no payload
+	Action:      1ms pass
+	Expectation: no (more) segments sent
+	Expectation: TCP has 0 bytes in flight
+	Action:      write (6950 bytes) [8c, a8, d2, 37, 26, 0, d, 3e, 90, 25, 2, 92, c0, 3f, b2, 57, ...]
+	Action:      1ms pass
+
+Warning: Unclean shutdown of TCPConnection
+The TCP has `bytes_in_flight = 1`, but bytes_in_flight was expected to be `6950`
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"t_loopback" end time: May 19 02:14 PDT
+"t_loopback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/164 Testing: t_loopback_win
+46/164 Test: t_loopback_win
+Command: "/home/zyy/CS144lab/build/tests/fsm_loopback_win"
+Directory: /home/zyy/CS144lab/build
+"t_loopback_win" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"t_loopback_win" end time: May 19 02:14 PDT
+"t_loopback_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/164 Testing: t_reorder
+47/164 Test: t_reorder
+Command: "/home/zyy/CS144lab/build/tests/fsm_reorder"
+Directory: /home/zyy/CS144lab/build
+"t_reorder" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"t_reorder" end time: May 19 02:14 PDT
+"t_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 48/164 Testing: t_address_dt
 48/164 Test: t_address_dt
 Command: "/home/zyy/CS144lab/build/doctests/address_dt"
 Directory: /home/zyy/CS144lab/build
-"t_address_dt" start time: May 16 22:33 PDT
+"t_address_dt" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.00 sec
+Test time =   2.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: May 16 22:33 PDT
-"t_address_dt" time elapsed: 00:00:00
+"t_address_dt" end time: May 19 02:14 PDT
+"t_address_dt" time elapsed: 00:00:02
 ----------------------------------------------------------
 
 49/164 Testing: t_parser_dt
 49/164 Test: t_parser_dt
 Command: "/home/zyy/CS144lab/build/doctests/parser_dt"
 Directory: /home/zyy/CS144lab/build
-"t_parser_dt" start time: May 16 22:33 PDT
+"t_parser_dt" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: May 16 22:33 PDT
+"t_parser_dt" end time: May 19 02:14 PDT
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -464,15 +951,2269 @@ Test Passed.
 50/164 Test: t_socket_dt
 Command: "/home/zyy/CS144lab/build/doctests/socket_dt"
 Directory: /home/zyy/CS144lab/build
-"t_socket_dt" start time: May 16 22:33 PDT
+"t_socket_dt" start time: May 19 02:14 PDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: May 16 22:33 PDT
+"t_socket_dt" end time: May 19 02:14 PDT
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 16 22:33 PDT
+51/164 Testing: t_udp_client_send
+51/164 Test: t_udp_client_send
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucS"
+Directory: /home/zyy/CS144lab/build
+"t_udp_client_send" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_client_send" end time: May 19 02:14 PDT
+"t_udp_client_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/164 Testing: t_udp_server_send
+52/164 Test: t_udp_server_send
+Command: "/home/zyy/CS144lab/txrx.sh" "-usS"
+Directory: /home/zyy/CS144lab/build
+"t_udp_server_send" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_server_send" end time: May 19 02:14 PDT
+"t_udp_server_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/164 Testing: t_udp_client_recv
+53/164 Test: t_udp_client_recv
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucR"
+Directory: /home/zyy/CS144lab/build
+"t_udp_client_recv" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_client_recv" end time: May 19 02:14 PDT
+"t_udp_client_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/164 Testing: t_udp_server_recv
+54/164 Test: t_udp_server_recv
+Command: "/home/zyy/CS144lab/txrx.sh" "-usR"
+Directory: /home/zyy/CS144lab/build
+"t_udp_server_recv" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_server_recv" end time: May 19 02:14 PDT
+"t_udp_server_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/164 Testing: t_udp_client_dupl
+55/164 Test: t_udp_client_dupl
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucD"
+Directory: /home/zyy/CS144lab/build
+"t_udp_client_dupl" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_client_dupl" end time: May 19 02:14 PDT
+"t_udp_client_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/164 Testing: t_udp_server_dupl
+56/164 Test: t_udp_server_dupl
+Command: "/home/zyy/CS144lab/txrx.sh" "-usD"
+Directory: /home/zyy/CS144lab/build
+"t_udp_server_dupl" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_udp_server_dupl" end time: May 19 02:14 PDT
+"t_udp_server_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/164 Testing: t_ucS_1M_32k
+57/164 Test: t_ucS_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_1M_32k" end time: May 19 02:14 PDT
+"t_ucS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/164 Testing: t_ucS_128K_8K
+58/164 Test: t_ucS_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K" end time: May 19 02:14 PDT
+"t_ucS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/164 Testing: t_ucS_16_1
+59/164 Test: t_ucS_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_16_1" end time: May 19 02:14 PDT
+"t_ucS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/164 Testing: t_ucS_32K_d
+60/164 Test: t_ucS_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_32K_d" end time: May 19 02:14 PDT
+"t_ucS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/164 Testing: t_ucR_1M_32k
+61/164 Test: t_ucR_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_1M_32k" end time: May 19 02:14 PDT
+"t_ucR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/164 Testing: t_ucR_128K_8K
+62/164 Test: t_ucR_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K" end time: May 19 02:14 PDT
+"t_ucR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/164 Testing: t_ucR_16_1
+63/164 Test: t_ucR_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_16_1" end time: May 19 02:14 PDT
+"t_ucR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/164 Testing: t_ucR_32K_d
+64/164 Test: t_ucR_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_32K_d" end time: May 19 02:14 PDT
+"t_ucR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/164 Testing: t_ucD_1M_32k
+65/164 Test: t_ucD_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_1M_32k" end time: May 19 02:14 PDT
+"t_ucD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/164 Testing: t_ucD_128K_8K
+66/164 Test: t_ucD_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K" end time: May 19 02:14 PDT
+"t_ucD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/164 Testing: t_ucD_16_1
+67/164 Test: t_ucD_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_16_1" end time: May 19 02:14 PDT
+"t_ucD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/164 Testing: t_ucD_32K_d
+68/164 Test: t_ucD_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_32K_d" end time: May 19 02:14 PDT
+"t_ucD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/164 Testing: t_usS_1M_32k
+69/164 Test: t_usS_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_usS_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_1M_32k" end time: May 19 02:14 PDT
+"t_usS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/164 Testing: t_usS_128K_8K
+70/164 Test: t_usS_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_usS_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K" end time: May 19 02:14 PDT
+"t_usS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/164 Testing: t_usS_16_1
+71/164 Test: t_usS_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_usS_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_16_1" end time: May 19 02:14 PDT
+"t_usS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/164 Testing: t_usS_32K_d
+72/164 Test: t_usS_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_usS_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_32K_d" end time: May 19 02:14 PDT
+"t_usS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/164 Testing: t_usR_1M_32k
+73/164 Test: t_usR_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_usR_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_1M_32k" end time: May 19 02:14 PDT
+"t_usR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/164 Testing: t_usR_128K_8K
+74/164 Test: t_usR_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_usR_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K" end time: May 19 02:14 PDT
+"t_usR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/164 Testing: t_usR_16_1
+75/164 Test: t_usR_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_usR_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_16_1" end time: May 19 02:14 PDT
+"t_usR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/164 Testing: t_usR_32K_d
+76/164 Test: t_usR_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_usR_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_32K_d" end time: May 19 02:14 PDT
+"t_usR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/164 Testing: t_usD_1M_32k
+77/164 Test: t_usD_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_usD_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_1M_32k" end time: May 19 02:14 PDT
+"t_usD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/164 Testing: t_usD_128K_8K
+78/164 Test: t_usD_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_usD_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K" end time: May 19 02:14 PDT
+"t_usD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/164 Testing: t_usD_16_1
+79/164 Test: t_usD_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_usD_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_16_1" end time: May 19 02:14 PDT
+"t_usD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/164 Testing: t_usD_32K_d
+80/164 Test: t_usD_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_usD_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_32K_d" end time: May 19 02:14 PDT
+"t_usD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/164 Testing: t_ucS_128K_8K_l
+81/164 Test: t_ucS_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_128K_8K_l" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K_l" end time: May 19 02:14 PDT
+"t_ucS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/164 Testing: t_ucS_128K_8K_L
+82/164 Test: t_ucS_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_128K_8K_L" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K_L" end time: May 19 02:14 PDT
+"t_ucS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/164 Testing: t_ucS_128K_8K_lL
+83/164 Test: t_ucS_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucS_128K_8K_lL" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucS_128K_8K_lL" end time: May 19 02:14 PDT
+"t_ucS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/164 Testing: t_ucR_128K_8K_l
+84/164 Test: t_ucR_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_128K_8K_l" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K_l" end time: May 19 02:14 PDT
+"t_ucR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/164 Testing: t_ucR_128K_8K_L
+85/164 Test: t_ucR_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_128K_8K_L" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K_L" end time: May 19 02:14 PDT
+"t_ucR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/164 Testing: t_ucR_128K_8K_lL
+86/164 Test: t_ucR_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucR_128K_8K_lL" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucR_128K_8K_lL" end time: May 19 02:14 PDT
+"t_ucR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/164 Testing: t_ucD_128K_8K_l
+87/164 Test: t_ucD_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_128K_8K_l" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K_l" end time: May 19 02:14 PDT
+"t_ucD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/164 Testing: t_ucD_128K_8K_L
+88/164 Test: t_ucD_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_128K_8K_L" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K_L" end time: May 19 02:14 PDT
+"t_ucD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/164 Testing: t_ucD_128K_8K_lL
+89/164 Test: t_ucD_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_ucD_128K_8K_lL" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_ucD_128K_8K_lL" end time: May 19 02:14 PDT
+"t_ucD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/164 Testing: t_usS_128K_8K_l
+90/164 Test: t_usS_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usS_128K_8K_l" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K_l" end time: May 19 02:14 PDT
+"t_usS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/164 Testing: t_usS_128K_8K_L
+91/164 Test: t_usS_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usS_128K_8K_L" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K_L" end time: May 19 02:14 PDT
+"t_usS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/164 Testing: t_usS_128K_8K_lL
+92/164 Test: t_usS_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usS_128K_8K_lL" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usS_128K_8K_lL" end time: May 19 02:14 PDT
+"t_usS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/164 Testing: t_usR_128K_8K_l
+93/164 Test: t_usR_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usR_128K_8K_l" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K_l" end time: May 19 02:14 PDT
+"t_usR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/164 Testing: t_usR_128K_8K_L
+94/164 Test: t_usR_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usR_128K_8K_L" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K_L" end time: May 19 02:14 PDT
+"t_usR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/164 Testing: t_usR_128K_8K_lL
+95/164 Test: t_usR_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usR_128K_8K_lL" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usR_128K_8K_lL" end time: May 19 02:14 PDT
+"t_usR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/164 Testing: t_usD_128K_8K_l
+96/164 Test: t_usD_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usD_128K_8K_l" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K_l" end time: May 19 02:14 PDT
+"t_usD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/164 Testing: t_usD_128K_8K_L
+97/164 Test: t_usD_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usD_128K_8K_L" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K_L" end time: May 19 02:14 PDT
+"t_usD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/164 Testing: t_usD_128K_8K_lL
+98/164 Test: t_usD_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_usD_128K_8K_lL" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... Warning: Unclean shutdown of TCPConnection
+Exception: sendmsg: Invalid argument
+Error in _rt_listen
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Failed.
+"t_usD_128K_8K_lL" end time: May 19 02:14 PDT
+"t_usD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/164 Testing: t_ipv4_client_send
+99/164 Test: t_ipv4_client_send
+Command: "/home/zyy/CS144lab/txrx.sh" "-icS"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_client_send" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:15999... done.
+DEBUG: Outbound stream to 169.254.145.9:15999 finished (1 byte still in flight).
+new connection from 169.254.145.1:6383.
+DEBUG: Outbound stream to 169.254.145.1:6383 finished (1 byte still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:15999 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:6383 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.1:6383 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:15999 has been fully acknowledged.
+DEBUG: TCP connection finished DEBUG: TCP connection finished cleanly.
+cleanly.
+done.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_client_send" end time: May 19 02:14 PDT
+"t_ipv4_client_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/164 Testing: t_ipv4_server_send
+100/164 Test: t_ipv4_server_send
+Command: "/home/zyy/CS144lab/txrx.sh" "-isS"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_server_send" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:5851... done.
+DEBUG: Outbound stream to 169.254.144.9:5851 finished (1 byte still in flight).
+new connection from 169.254.144.1:38635.
+DEBUG: Outbound stream to 169.254.144.1:38635 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:38635 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:5851 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.9:5851 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:38635 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_server_send" end time: May 19 02:14 PDT
+"t_ipv4_server_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/164 Testing: t_ipv4_client_recv
+101/164 Test: t_ipv4_client_recv
+Command: "/home/zyy/CS144lab/txrx.sh" "-icR"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_client_recv" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:29638... done.
+DEBUG: Outbound stream to 169.254.145.9:29638 finished (1 byte still in flight).
+new connection from 169.254.145.1:25275.
+DEBUG: Outbound stream to 169.254.145.1:25275 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:25275 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:29638 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.9:29638 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:25275 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_client_recv" end time: May 19 02:14 PDT
+"t_ipv4_client_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/164 Testing: t_ipv4_server_recv
+102/164 Test: t_ipv4_server_recv
+Command: "/home/zyy/CS144lab/txrx.sh" "-isR"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_server_recv" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:19928... done.
+DEBUG: Outbound stream to 169.254.144.9:19928 finished (1 byte still in flight).
+new connection from 169.254.144.1:13394.
+DEBUG: Outbound stream to 169.254.144.1:13394 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:19928 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:13394 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:13394 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:19928 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_server_recv" end time: May 19 02:14 PDT
+"t_ipv4_server_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/164 Testing: t_ipv4_client_dupl
+103/164 Test: t_ipv4_client_dupl
+Command: "/home/zyy/CS144lab/txrx.sh" "-icD"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_client_dupl" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:8994... done.
+DEBUG: Outbound stream to 169.254.145.9:8994 finished (1 byte still in flight).
+new connection from 169.254.145.1:8355.
+DEBUG: Outbound stream to 169.254.145.1:8355 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:8355 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:8994 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.9:8994 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:8355 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_client_dupl" end time: May 19 02:14 PDT
+"t_ipv4_client_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/164 Testing: t_ipv4_server_dupl
+104/164 Test: t_ipv4_server_dupl
+Command: "/home/zyy/CS144lab/txrx.sh" "-isD"
+Directory: /home/zyy/CS144lab/build
+"t_ipv4_server_dupl" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:16429... done.
+DEBUG: Outbound stream to 169.254.144.9:16429 finished (1 byte still in flight).
+new connection from 169.254.144.1:4714.
+DEBUG: Outbound stream to 169.254.144.1:4714 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.9:16429 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:4714 finished cleanly.
+DEBUG: Inbound stream from 169.254.144.9:16429 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:4714 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_server_dupl" end time: May 19 02:14 PDT
+"t_ipv4_server_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/164 Testing: t_icS_1M_32k
+105/164 Test: t_icS_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_icS_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:21214... done.
+new connection from 169.254.145.1:36329.
+DEBUG: Outbound stream to 169.254.145.1:36329 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:21214 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:36329 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_1M_32k" end time: May 19 02:14 PDT
+"t_icS_1M_32k" time elapsed: 00:00:10
+----------------------------------------------------------
+
+106/164 Testing: t_icS_128K_8K
+106/164 Test: t_icS_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_icS_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30836... done.
+new connection from 169.254.145.1:5160.
+DEBUG: Outbound stream to 169.254.145.1:5160 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:30836 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:5160 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.145.9:30836 finished (1 byte still in flight).
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K" end time: May 19 02:14 PDT
+"t_icS_128K_8K" time elapsed: 00:00:10
+----------------------------------------------------------
+
+107/164 Testing: t_icS_16_1
+107/164 Test: t_icS_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_icS_16_1" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:10335... done.
+DEBUG: Outbound stream to 169.254.145.9:10335 finished (1 byte still in flight).
+new connection from 169.254.145.1:2396.
+DEBUG: Outbound stream to 169.254.145.1:2396 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:10335 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:2396 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:2396 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:10335 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_16_1" end time: May 19 02:14 PDT
+"t_icS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/164 Testing: t_icS_32K_d
+108/164 Test: t_icS_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_icS_32K_d" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:5374... done.
+DEBUG: Outbound stream to 169.254.145.9:5374 finished (1 byte still in flight).
+new connection from 169.254.145.1:24787.
+DEBUG: Outbound stream to 169.254.145.1:24787 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:5374 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:24787 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:24787 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:5374 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   6.48 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_32K_d" end time: May 19 02:14 PDT
+"t_icS_32K_d" time elapsed: 00:00:06
+----------------------------------------------------------
+
+109/164 Testing: t_icR_1M_32k
+109/164 Test: t_icR_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_icR_1M_32k" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31430... done.
+DEBUG: Outbound stream to 169.254.145.9:31430 finished (1 byte still in flight).
+new connection from 169.254.145.1:35946.
+DEBUG: Inbound stream from 169.254.145.1:35946 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:31430 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_1M_32k" end time: May 19 02:14 PDT
+"t_icR_1M_32k" time elapsed: 00:00:10
+----------------------------------------------------------
+
+110/164 Testing: t_icR_128K_8K
+110/164 Test: t_icR_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_icR_128K_8K" start time: May 19 02:14 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:29585... done.
+DEBUG: Outbound stream to 169.254.145.9:29585 finished (1 byte still in flight).
+new connection from 169.254.145.1:32119.
+DEBUG: Outbound stream to 169.254.145.9:29585 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.1:32119 finished cleanly.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K" end time: May 19 02:15 PDT
+"t_icR_128K_8K" time elapsed: 00:00:10
+----------------------------------------------------------
+
+111/164 Testing: t_icR_16_1
+111/164 Test: t_icR_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_icR_16_1" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:33171... done.
+DEBUG: Outbound stream to 169.254.145.9:33171 finished (1 byte still in flight).
+new connection from 169.254.145.1:7935.
+DEBUG: Outbound stream to 169.254.145.1:7935 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:33171 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:7935 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:7935 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:33171 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_16_1" end time: May 19 02:15 PDT
+"t_icR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/164 Testing: t_icR_32K_d
+112/164 Test: t_icR_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_icR_32K_d" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:2761... done.
+DEBUG: Outbound stream to 169.254.145.9:2761 finished (1 byte still in flight).
+new connection from 169.254.145.1:22033.
+DEBUG: Outbound stream to 169.254.145.1:22033 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:22033 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:2761 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:2761 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:22033 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   5.85 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_32K_d" end time: May 19 02:15 PDT
+"t_icR_32K_d" time elapsed: 00:00:05
+----------------------------------------------------------
+
+113/164 Testing: t_icD_1M_32k
+113/164 Test: t_icD_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_icD_1M_32k" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31483... done.
+new connection from 169.254.145.1:41182.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_1M_32k" end time: May 19 02:15 PDT
+"t_icD_1M_32k" time elapsed: 00:00:10
+----------------------------------------------------------
+
+114/164 Testing: t_icD_128K_8K
+114/164 Test: t_icD_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_icD_128K_8K" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:29867... done.
+new connection from 169.254.145.1:65176.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K" end time: May 19 02:15 PDT
+"t_icD_128K_8K" time elapsed: 00:00:10
+----------------------------------------------------------
+
+115/164 Testing: t_icD_16_1
+115/164 Test: t_icD_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_icD_16_1" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:25606... done.
+DEBUG: Outbound stream to 169.254.145.9:25606 finished (1 byte still in flight).
+new connection from 169.254.145.1:44794.
+DEBUG: Outbound stream to 169.254.145.1:44794 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.145.9:25606 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.1:44794 finished cleanly.
+DEBUG: Inbound stream from 169.254.145.9:25606 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:44794 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_16_1" end time: May 19 02:15 PDT
+"t_icD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/164 Testing: t_icD_32K_d
+116/164 Test: t_icD_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_icD_32K_d" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:28841... done.
+DEBUG: Outbound stream to 169.254.145.9:28841 finished (1 byte still in flight).
+new connection from 169.254.145.1:34778.
+DEBUG: Outbound stream to 169.254.145.1:34778 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.145.9:28841 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:34778 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:28841 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:34778 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   7.32 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_32K_d" end time: May 19 02:15 PDT
+"t_icD_32K_d" time elapsed: 00:00:07
+----------------------------------------------------------
+
+117/164 Testing: t_isS_1M_32k
+117/164 Test: t_isS_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_isS_1M_32k" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:29575... done.
+DEBUG: Outbound stream to 169.254.144.9:29575 finished (1 byte still in flight).
+new connection from 169.254.144.1:61462.
+DEBUG: Inbound stream from 169.254.144.1:61462 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:29575 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_1M_32k" end time: May 19 02:15 PDT
+"t_isS_1M_32k" time elapsed: 00:00:10
+----------------------------------------------------------
+
+118/164 Testing: t_isS_128K_8K
+118/164 Test: t_isS_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_isS_128K_8K" start time: May 19 02:15 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:11454... done.
+DEBUG: Outbound stream to 169.254.144.9:11454 finished (1 byte still in flight).
+new connection from 169.254.144.1:8925.
+DEBUG: Inbound stream from 169.254.144.1:8925 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:11454 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K" end time: May 19 02:16 PDT
+"t_isS_128K_8K" time elapsed: 00:00:10
+----------------------------------------------------------
+
+119/164 Testing: t_isS_16_1
+119/164 Test: t_isS_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_isS_16_1" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:12394... done.
+DEBUG: Outbound stream to 169.254.144.9:12394 finished (1 byte still in flight).
+new connection from 169.254.144.1:53601.
+DEBUG: Outbound stream to 169.254.144.1:53601 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:12394 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:53601 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:53601 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:12394 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_16_1" end time: May 19 02:16 PDT
+"t_isS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/164 Testing: t_isS_32K_d
+120/164 Test: t_isS_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_isS_32K_d" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:31450... done.
+DEBUG: Outbound stream to 169.254.144.9:31450 finished (1 byte still in flight).
+new connection from 169.254.144.1:32473.
+DEBUG: Inbound stream from 169.254.144.1:32473 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:31450 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:32473 finished (1 byte still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:31450 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:32473 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   7.40 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_32K_d" end time: May 19 02:16 PDT
+"t_isS_32K_d" time elapsed: 00:00:07
+----------------------------------------------------------
+
+121/164 Testing: t_isR_1M_32k
+121/164 Test: t_isR_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_isR_1M_32k" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:6461... done.
+new connection from 169.254.144.1:23297.
+DEBUG: Outbound stream to 169.254.144.1:23297 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:6461 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:23297 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_1M_32k" end time: May 19 02:16 PDT
+"t_isR_1M_32k" time elapsed: 00:00:10
+----------------------------------------------------------
+
+122/164 Testing: t_isR_128K_8K
+122/164 Test: t_isR_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_isR_128K_8K" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:29114... done.
+new connection from 169.254.144.1:44137.
+DEBUG: Outbound stream to 169.254.144.1:44137 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:29114 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:44137 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K" end time: May 19 02:16 PDT
+"t_isR_128K_8K" time elapsed: 00:00:10
+----------------------------------------------------------
+
+123/164 Testing: t_isR_16_1
+123/164 Test: t_isR_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_isR_16_1" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:21465... done.
+DEBUG: Outbound stream to 169.254.144.9:21465 finished (1 byte still in flight).
+new connection from 169.254.144.1:23830.
+DEBUG: Outbound stream to 169.254.144.1:23830 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:21465 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:23830 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:23830 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:21465 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_16_1" end time: May 19 02:16 PDT
+"t_isR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/164 Testing: t_isR_32K_d
+124/164 Test: t_isR_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_isR_32K_d" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:28053... done.
+DEBUG: Outbound stream to 169.254.144.9:28053 finished (1 byte still in flight).
+new connection from 169.254.144.1:43787.
+DEBUG: Outbound stream to 169.254.144.1:43787 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:28053 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:43787 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:43787 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:28053 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   5.56 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_32K_d" end time: May 19 02:16 PDT
+"t_isR_32K_d" time elapsed: 00:00:05
+----------------------------------------------------------
+
+125/164 Testing: t_isD_1M_32k
+125/164 Test: t_isD_1M_32k
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "1M" "-w" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_isD_1M_32k" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:21346... done.
+new connection from 169.254.144.1:1120.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_1M_32k" end time: May 19 02:16 PDT
+"t_isD_1M_32k" time elapsed: 00:00:10
+----------------------------------------------------------
+
+126/164 Testing: t_isD_128K_8K
+126/164 Test: t_isD_128K_8K
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "128K" "-w" "8K"
+Directory: /home/zyy/CS144lab/build
+"t_isD_128K_8K" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:30559... done.
+new connection from 169.254.144.1:53115.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K" end time: May 19 02:16 PDT
+"t_isD_128K_8K" time elapsed: 00:00:10
+----------------------------------------------------------
+
+127/164 Testing: t_isD_16_1
+127/164 Test: t_isD_16_1
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "16" "-w" "1"
+Directory: /home/zyy/CS144lab/build
+"t_isD_16_1" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:3791... done.
+DEBUG: Outbound stream to 169.254.144.9:3791 finished (1 byte still in flight).
+new connection from 169.254.144.1:43186.
+DEBUG: Outbound stream to 169.254.144.1:43186 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:3791 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:43186 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:43186 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:3791 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_16_1" end time: May 19 02:16 PDT
+"t_isD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/164 Testing: t_isD_32K_d
+128/164 Test: t_isD_32K_d
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "32K"
+Directory: /home/zyy/CS144lab/build
+"t_isD_32K_d" start time: May 19 02:16 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:21117... done.
+DEBUG: Outbound stream to 169.254.144.9:21117 finished (1 byte still in flight).
+new connection from 169.254.144.1:7135.
+DEBUG: Outbound stream to 169.254.144.1:7135 finished (1 byte still in flight).
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_32K_d" end time: May 19 02:17 PDT
+"t_isD_32K_d" time elapsed: 00:00:10
+----------------------------------------------------------
+
+129/164 Testing: t_icS_128K_8K_l
+129/164 Test: t_icS_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icS_128K_8K_l" start time: May 19 02:17 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:20139... done.
+new connection from 169.254.145.1:22305.
+DEBUG: Outbound stream to 169.254.145.1:22305 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:20139 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:22305 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K_l" end time: May 19 02:17 PDT
+"t_icS_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+130/164 Testing: t_icS_128K_8K_L
+130/164 Test: t_icS_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icS_128K_8K_L" start time: May 19 02:17 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31956... done.
+new connection from 169.254.145.1:5339.
+DEBUG: Outbound stream to 169.254.145.1:5339 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:31956 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:5339 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K_L" end time: May 19 02:17 PDT
+"t_icS_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+131/164 Testing: t_icS_128K_8K_lL
+131/164 Test: t_icS_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icS_128K_8K_lL" start time: May 19 02:17 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:2862... done.
+new connection from 169.254.145.1:23221.
+DEBUG: Outbound stream to 169.254.145.1:23221 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:2862 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:23221 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icS_128K_8K_lL" end time: May 19 02:17 PDT
+"t_icS_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+132/164 Testing: t_icR_128K_8K_l
+132/164 Test: t_icR_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icR_128K_8K_l" start time: May 19 02:17 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:22875... done.
+DEBUG: Outbound stream to 169.254.145.9:22875 finished (1 byte still in flight).
+new connection from 169.254.145.1:21516.
+DEBUG: Inbound stream from 169.254.145.1:21516 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:22875 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K_l" end time: May 19 02:17 PDT
+"t_icR_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+133/164 Testing: t_icR_128K_8K_L
+133/164 Test: t_icR_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icR_128K_8K_L" start time: May 19 02:17 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:15956... done.
+DEBUG: Outbound stream to 169.254.145.9:15956 finished (1 byte still in flight).
+new connection from 169.254.145.1:28558.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:28558 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:15956 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K_L" end time: May 19 02:17 PDT
+"t_icR_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+134/164 Testing: t_icR_128K_8K_lL
+134/164 Test: t_icR_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icR_128K_8K_lL" start time: May 19 02:17 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:6769... done.
+DEBUG: Outbound stream to 169.254.145.9:6769 finished (1 byte still in flight).
+new connection from 169.254.145.1:18259.
+DEBUG: Inbound stream from 169.254.145.1:18259 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:6769 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icR_128K_8K_lL" end time: May 19 02:18 PDT
+"t_icR_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+135/164 Testing: t_icD_128K_8K_l
+135/164 Test: t_icD_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icD_128K_8K_l" start time: May 19 02:18 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:9727... done.
+new connection from 169.254.145.1:33073.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K_l" end time: May 19 02:18 PDT
+"t_icD_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+136/164 Testing: t_icD_128K_8K_L
+136/164 Test: t_icD_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icD_128K_8K_L" start time: May 19 02:18 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:24616... done.
+new connection from 169.254.145.1:40507.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K_L" end time: May 19 02:18 PDT
+"t_icD_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+137/164 Testing: t_icD_128K_8K_lL
+137/164 Test: t_icD_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icD_128K_8K_lL" start time: May 19 02:18 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:22994... done.
+new connection from 169.254.145.1:37628.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icD_128K_8K_lL" end time: May 19 02:18 PDT
+"t_icD_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+138/164 Testing: t_isS_128K_8K_l
+138/164 Test: t_isS_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isS_128K_8K_l" start time: May 19 02:18 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:18038... done.
+DEBUG: Outbound stream to 169.254.144.9:18038 finished (1 byte still in flight).
+new connection from 169.254.144.1:38397.
+DEBUG: Inbound stream from 169.254.144.1:38397 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:18038 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K_l" end time: May 19 02:18 PDT
+"t_isS_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+139/164 Testing: t_isS_128K_8K_L
+139/164 Test: t_isS_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isS_128K_8K_L" start time: May 19 02:18 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:25361... done.
+DEBUG: Outbound stream to 169.254.144.9:25361 finished (1 byte still in flight).
+new connection from 169.254.144.1:38574.
+DEBUG: Inbound stream from 169.254.144.1:38574 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:25361 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K_L" end time: May 19 02:18 PDT
+"t_isS_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+140/164 Testing: t_isS_128K_8K_lL
+140/164 Test: t_isS_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isS_128K_8K_lL" start time: May 19 02:18 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:23824... done.
+DEBUG: Outbound stream to 169.254.144.9:23824 finished (1 byte still in flight).
+new connection from 169.254.144.1:19992.
+DEBUG: Inbound stream from 169.254.144.1:19992 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:23824 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isS_128K_8K_lL" end time: May 19 02:19 PDT
+"t_isS_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+141/164 Testing: t_isR_128K_8K_l
+141/164 Test: t_isR_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isR_128K_8K_l" start time: May 19 02:19 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:24798... done.
+new connection from 169.254.144.1:30417.
+DEBUG: Outbound stream to 169.254.144.1:30417 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:24798 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:30417 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K_l" end time: May 19 02:19 PDT
+"t_isR_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+142/164 Testing: t_isR_128K_8K_L
+142/164 Test: t_isR_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isR_128K_8K_L" start time: May 19 02:19 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:3109... done.
+new connection from 169.254.144.1:34596.
+DEBUG: Outbound stream to 169.254.144.1:34596 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:3109 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:34596 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K_L" end time: May 19 02:19 PDT
+"t_isR_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+143/164 Testing: t_isR_128K_8K_lL
+143/164 Test: t_isR_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isR_128K_8K_lL" start time: May 19 02:19 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:6995... done.
+new connection from 169.254.144.1:48204.
+DEBUG: Outbound stream to 169.254.144.1:48204 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:6995 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:48204 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isR_128K_8K_lL" end time: May 19 02:19 PDT
+"t_isR_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+144/164 Testing: t_isD_128K_8K_l
+144/164 Test: t_isD_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isD_128K_8K_l" start time: May 19 02:19 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:33193... done.
+new connection from 169.254.144.1:6728.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K_l" end time: May 19 02:19 PDT
+"t_isD_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+145/164 Testing: t_isD_128K_8K_L
+145/164 Test: t_isD_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isD_128K_8K_L" start time: May 19 02:19 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:21651... done.
+new connection from 169.254.144.1:39340.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K_L" end time: May 19 02:19 PDT
+"t_isD_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+146/164 Testing: t_isD_128K_8K_lL
+146/164 Test: t_isD_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isD_128K_8K_lL" start time: May 19 02:19 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:23625... done.
+new connection from 169.254.144.1:42613.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isD_128K_8K_lL" end time: May 19 02:20 PDT
+"t_isD_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+147/164 Testing: t_icnS_128K_8K_l
+147/164 Test: t_icnS_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnS_128K_8K_l" start time: May 19 02:20 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:2609... done.
+DEBUG: Outbound stream to 169.254.144.1:2609 finished (63888 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:2609 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnS_128K_8K_l" end time: May 19 02:20 PDT
+"t_icnS_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+148/164 Testing: t_icnS_128K_8K_L
+148/164 Test: t_icnS_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnS_128K_8K_L" start time: May 19 02:20 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:19158... done.
+DEBUG: Outbound stream to 169.254.144.1:19158 finished (53724 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:19158 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnS_128K_8K_L" end time: May 19 02:20 PDT
+"t_icnS_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+149/164 Testing: t_icnS_128K_8K_lL
+149/164 Test: t_icnS_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-icSnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnS_128K_8K_lL" start time: May 19 02:20 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:17810... done.
+DEBUG: Outbound stream to 169.254.144.1:17810 finished (52272 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:17810 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnS_128K_8K_lL" end time: May 19 02:20 PDT
+"t_icnS_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+150/164 Testing: t_icnR_128K_8K_l
+150/164 Test: t_icnR_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnR_128K_8K_l" start time: May 19 02:20 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:7018... done.
+DEBUG: Outbound stream to 169.254.144.1:7018 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:7018 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnR_128K_8K_l" end time: May 19 02:20 PDT
+"t_icnR_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+151/164 Testing: t_icnR_128K_8K_L
+151/164 Test: t_icnR_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnR_128K_8K_L" start time: May 19 02:20 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:3875... done.
+DEBUG: Outbound stream to 169.254.144.1:3875 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:3875 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnR_128K_8K_L" end time: May 19 02:20 PDT
+"t_icnR_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+152/164 Testing: t_icnR_128K_8K_lL
+152/164 Test: t_icnR_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-icRnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnR_128K_8K_lL" start time: May 19 02:20 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:17382... done.
+DEBUG: Outbound stream to 169.254.144.1:17382 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:17382 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnR_128K_8K_lL" end time: May 19 02:21 PDT
+"t_icnR_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+153/164 Testing: t_icnD_128K_8K_l
+153/164 Test: t_icnD_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnD_128K_8K_l" start time: May 19 02:21 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:31625... done.
+DEBUG: Outbound stream to 169.254.144.1:31625 finished (50820 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:31625 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnD_128K_8K_l" end time: May 19 02:21 PDT
+"t_icnD_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+154/164 Testing: t_icnD_128K_8K_L
+154/164 Test: t_icnD_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnD_128K_8K_L" start time: May 19 02:21 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:6062... done.
+DEBUG: Outbound stream to 169.254.144.1:6062 finished (50820 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:6062 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnD_128K_8K_L" end time: May 19 02:21 PDT
+"t_icnD_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+155/164 Testing: t_icnD_128K_8K_lL
+155/164 Test: t_icnD_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-icDnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_icnD_128K_8K_lL" start time: May 19 02:21 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:2983... done.
+DEBUG: Outbound stream to 169.254.144.1:2983 finished (63888 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:2983 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_icnD_128K_8K_lL" end time: May 19 02:21 PDT
+"t_icnD_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+156/164 Testing: t_isnS_128K_8K_l
+156/164 Test: t_isnS_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnS_128K_8K_l" start time: May 19 02:21 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:51282.
+DEBUG: Outbound stream to 169.254.144.1:51282 finished (50820 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:51282 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnS_128K_8K_l" end time: May 19 02:21 PDT
+"t_isnS_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+157/164 Testing: t_isnS_128K_8K_L
+157/164 Test: t_isnS_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnS_128K_8K_L" start time: May 19 02:21 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:54458.
+DEBUG: Outbound stream to 169.254.144.1:54458 finished (14520 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:54458 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnS_128K_8K_L" end time: May 19 02:21 PDT
+"t_isnS_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+158/164 Testing: t_isnS_128K_8K_lL
+158/164 Test: t_isnS_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-isSnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnS_128K_8K_lL" start time: May 19 02:21 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:34898.
+DEBUG: Outbound stream to 169.254.144.1:34898 finished (50820 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:34898 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnS_128K_8K_lL" end time: May 19 02:22 PDT
+"t_isnS_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+159/164 Testing: t_isnR_128K_8K_l
+159/164 Test: t_isnR_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnR_128K_8K_l" start time: May 19 02:22 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:53806.
+DEBUG: Outbound stream to 169.254.144.1:53806 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:53806 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnR_128K_8K_l" end time: May 19 02:22 PDT
+"t_isnR_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+160/164 Testing: t_isnR_128K_8K_L
+160/164 Test: t_isnR_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnR_128K_8K_L" start time: May 19 02:22 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:46928.
+DEBUG: Outbound stream to 169.254.144.1:46928 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:46928 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnR_128K_8K_L" end time: May 19 02:22 PDT
+"t_isnR_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+161/164 Testing: t_isnR_128K_8K_lL
+161/164 Test: t_isnR_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-isRnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnR_128K_8K_lL" start time: May 19 02:22 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:51192.
+DEBUG: Outbound stream to 169.254.144.1:51192 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:51192 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnR_128K_8K_lL" end time: May 19 02:22 PDT
+"t_isnR_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+162/164 Testing: t_isnD_128K_8K_l
+162/164 Test: t_isnD_128K_8K_l
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnD_128K_8K_l" start time: May 19 02:22 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:54260.
+DEBUG: Outbound stream to 169.254.144.1:54260 finished (50820 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:54260 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnD_128K_8K_l" end time: May 19 02:22 PDT
+"t_isnD_128K_8K_l" time elapsed: 00:00:10
+----------------------------------------------------------
+
+163/164 Testing: t_isnD_128K_8K_L
+163/164 Test: t_isnD_128K_8K_L
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnD_128K_8K_L" start time: May 19 02:22 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:37628.
+DEBUG: Outbound stream to 169.254.144.1:37628 finished (62436 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:37628 has been fully acknowledged.
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnD_128K_8K_L" end time: May 19 02:22 PDT
+"t_isnD_128K_8K_L" time elapsed: 00:00:10
+----------------------------------------------------------
+
+164/164 Testing: t_isnD_128K_8K_lL
+164/164 Test: t_isnD_128K_8K_lL
+Command: "/home/zyy/CS144lab/txrx.sh" "-isDnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/zyy/CS144lab/build
+"t_isnD_128K_8K_lL" start time: May 19 02:22 PDT
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:37506.
+DEBUG: Outbound stream to 169.254.144.1:37506 finished (42108 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:37506 has been fully acknowledged.
+<end of output>
+Test time =  10.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_isnD_128K_8K_lL" end time: May 19 02:23 PDT
+"t_isnD_128K_8K_lL" time elapsed: 00:00:10
+----------------------------------------------------------
+
+End testing: May 19 02:23 PDT

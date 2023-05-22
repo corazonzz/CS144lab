@@ -27,20 +27,50 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         return;
     _time_since_last_segment_received = 0;
 
-    if(seg.header().ack){
-        _sender.ack_received(seg.header().ackno,seg.header().win);
+    //state close
+    if(_close()){
+        if(seg.header().syn){
+            //swtich to state listen
+            _receiver.segment_received(seg);
+            connect();
+            return;
+        }else
+            return;
     }
-    if(seg.header().rst){
-        if(_listen()){
+    //
+    bool empty_ = false;
+
+    if(syn_sent() && seg.header().ack && seg.payload().size() > 0)
+        return;
+
+
+    //state listen
+    if(_listen()){
+        if(!seg.header().syn){
             return;
         }
-        connect_shutdown();
+    }
+    if(seg.header().rst){
+        if(syn_sent() && seg.header().ack)
+            return;
+        connect_shutdown(false);
         return;
     }
-    if(seg.length_in_sequence_space() == 0){
-        return;
+    // state syn_sent
+    if(seg.header().ack && _sender.next_seqno_absolute() > 0){
+        if(!_sender.ack_received(seg.header().ackno,seg.header().win)){
+            empty_ = true;
+        }
     }
-    _receiver.segment_received(seg);
+
+    if(!_receiver.segment_received(seg))
+        empty_ = true;
+
+    if(empty_ || seg.length_in_sequence_space() > 0){
+        if(_receiver.ackno().has_value() && _sender.segments_out().empty()){
+            _sender.send_empty_segment();
+        }
+    }
 
     push_out();
 }
@@ -55,12 +85,14 @@ void TCPConnection::push_out(){
         if(_receiver.ackno().has_value()){
             seg.header().ack = true;
             seg.header().ackno = _receiver.ackno().value();
+            seg.header().win = _receiver.window_size();
         }
         if(_sender.stream_in().error() || _receiver.stream_out().error()){
             seg.header().rst = true;
         }
         segments_out().emplace(seg);
     }
+    connect_close();
 }
 bool TCPConnection::active() const { return _active; }
 
@@ -72,12 +104,11 @@ size_t TCPConnection::write(const string &data) {
 
 //! \param[in] ms_since_last_tick number of milliseconds since the last call to this method
 void TCPConnection::tick(const size_t ms_since_last_tick) {
-    if(!active()) return;
+    if(!_active) return;
     _time_since_last_segment_received += ms_since_last_tick;
     _sender.tick(ms_since_last_tick);
-    if(_sender.consecutive_retransmissions() >= TCPConfig::MAX_RETX_ATTEMPTS){
-        _active = false;
-        connect_shutdown();
+    if(_sender.consecutive_retransmissions() > TCPConfig::MAX_RETX_ATTEMPTS){
+        connect_shutdown(true);
     }
     push_out();
 }
@@ -90,32 +121,36 @@ void TCPConnection::end_input_stream() {
 void TCPConnection::connect() {
     push_out();
 }
-void TCPConnection::connect_shutdown() {
+
+void TCPConnection::connect_shutdown(bool send_rst) {
     _sender.stream_in().set_error();
     _receiver.stream_out().set_error();
     _active = false;
-    if(_sender.segments_out().empty()){
-
+    if(send_rst){
+        if(_sender.segments_out().empty()){
+            _sender.send_empty_segment();
+        }
+        push_out();
     }
-    push_out();
 }
+
 bool TCPConnection::connect_close() {
     if (_receiver.stream_out().input_ended() && !_sender.stream_in().input_ended()){
         _linger_after_streams_finish = false;
     }
     if(_receiver.stream_out().input_ended() && _sender.stream_in().eof() && _sender.bytes_in_flight() == 0){
-        if(!_linger_after_streams_finish || _time_since_last_segment_received >= _cfg.rt_timeout){
+        if(!_linger_after_streams_finish || _time_since_last_segment_received >= 10 * _cfg.rt_timeout){
             _active = false;
         }
     }
-    return _active;
+    return !_active;
 }
 
 TCPConnection::~TCPConnection() {
     try {
         if (active()) {
             cerr << "Warning: Unclean shutdown of TCPConnection\n";
-            connect_shutdown();
+            connect_shutdown(true);
             // Your code here: need to send a RST segment to the peer
         }
     } catch (const exception &e) {
@@ -133,4 +168,8 @@ bool TCPConnection::syn_recv(){
 
 bool TCPConnection::_listen() {
     return !_receiver.ackno().has_value();
+}
+
+bool TCPConnection::_close() {
+    return _sender.next_seqno_absolute() == 0;
 }

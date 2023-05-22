@@ -16,9 +16,7 @@ class TCPConnection {
     //! outbound queue of segments that the TCPConnection wants sent
     std::queue<TCPSegment> _segments_out{};
     size_t  _time_since_last_segment_received = 0;
-    bool _syn_sent = false;
-    bool _syn_fin = false;
-    bool _syn_recv = false;
+    bool rst_ = false;
     bool _active = true;
 
     //! Should the TCPConnection stay active (and keep ACKing)
@@ -83,7 +81,7 @@ class TCPConnection {
     //! \returns `true` if either stream is still running or if the TCPConnection is lingering
     //! after both streams have finished (e.g. to ACK retransmissions from the peer)
     bool active() const;
-    void connect_shutdown();
+    void connect_shutdown(bool sent_rst);
     bool connect_close();
     //!@}
 
@@ -95,6 +93,7 @@ class TCPConnection {
     bool syn_sent();
     bool syn_recv();
     bool _listen();
+    bool _close();
     //!@{
     ~TCPConnection();  //!< destructor sends a RST if the connection is still open
     TCPConnection() = delete;
